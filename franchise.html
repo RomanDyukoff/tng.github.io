@@ -1,0 +1,2354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <title>slider</title>
+    <link
+      href="https://db.onlinewebfonts.com/c/abf78524cb042ba43670abd33c4883d6?family=Panama+Regular"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index.1a3fe84b.js"></script>
+    <link rel="stylesheet" href="/assets/index.8ba8ea75.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/modals.css" />
+    <link rel="stylesheet" type="text/css" href="styles/franshise.css" />
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="styles/adaptive.css" />
+  </head>
+  <body>
+    <header class="header-wrapper">
+      <div class="container">
+        <div class="header-container">
+          <div class="header-container-left">
+            <div class="header-container-logo">
+              <img src="/img/logo-desktop.svg" alt="" />
+            </div>
+            <div class="dropdown dropdown-header">
+              <div class="dropdown-dropbtn dci">
+                <button class="dropbtn"></button>
+              </div>
+              <div class="dropdown-content">
+                <a href="#" class="dropdown-content-icon">Россия</a>
+                <a href="#" class="dropdown-content-icon">Казахстан</a>
+                <a href="#">Бали</a>
+                <a href="#">Минск</a>
+                <a href="#">Ташкент</a>
+              </div>
+              <div class="dropdown-content dropdown-content-acive">
+                <a href="#" class="dropdown-content-icon-down">Россия</a>
+                <a href="#">Санкт-Петербург</a>
+                <a href="#">Москва</a>
+                <a href="#">Казань</a>
+                <a href="#">Краснодар</a>
+                <a href="#">Калининград</a>
+                <a href="#">Ростов-на-Дону</a>
+                <a href="#">Нижний Новгород</a>
+                <a href="#">Новосибирск</a>
+                <a href="#">Тюмень</a>
+                <a href="#">Томск</a>
+                <a href="#">Барнаул</a>
+                <a href="#">Екатеринбург</a>
+                <a href="#">Ставрополь</a>
+                <a href="#">Луганск</a>
+                <a href="#">Пенза</a>
+                <a href="#">Пятигорск</a>
+              </div>
+              <div class="dropdown-content dropdown-content-acive">
+                <a href="#" class="dropdown-content-icon-down">Казахстан</a>
+                <a href="#">Алматы</a>
+                <a href="#">Актау</a>
+                <a href="#">Астана</a>
+                <a href="#">Аксай</a>
+                <a href="#">Костанай</a>
+                <a href="#">Карагандай</a>
+                <a href="#">Уральск</a>
+                <a href="#">Усть-Каменогорск</a>
+                <a href="#">Шымкент</a>
+              </div>
+            </div>
+            <h1>Сеть лаунж-ресторанов</h1>
+          </div>
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <div class="menu__box">
+              <div class="burger__header-mob">
+                <div class="burger__dropbtn-mob">
+                  <span class="burger__dropbtn"></span>
+                  <button class="burger__dropbtn-btn">Изменить</button>
+                </div>
+                <div class="burger__search">
+                  <div class="zoom"></div>
+                  <input
+                    class="search__city"
+                    type="text"
+                    placeholder="Ваш город"
+                  />
+                  <div class="close"></div>
+                </div>
+              </div>
+              <ul class="burger__menu">
+                <li>
+                  <a href="/" class="burger-menu-active">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Главная
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Рестораны
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Франшиза
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Офрмить бонусную карту
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Кейтеринг
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    О нас
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Контакты
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Доставка
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+              <ul class="burger__menu-city burger__menu-city-active">
+                <li class="bmc">Россия</li>
+                <li class="bmc">Казахстан</li>
+                <li>Бали</li>
+                <li>Минск</li>
+                <li>Ташкент</li>
+              </ul>
+              <ul class="burger__menu-city burger__menu-city-active">
+                <li class="bmcd">Россия</li>
+                <li>Санкт-Петербург</li>
+                <li>Москва</li>
+                <li>Казань</li>
+                <li>Краснодар</li>
+                <li>Калининград</li>
+                <li>Ростов-на-Дону</li>
+                <li>Нижний Новгород</li>
+                <li>Новосибирск</li>
+                <li>Тюмень</li>
+                <li>Томск</li>
+                <li>Барнаул</li>
+                <li>Екатеринбург</li>
+                <li>Ставрополь</li>
+                <li>Луганск</li>
+                <li>Пенза</li>
+                <li>Пятигорск</li>
+              </ul>
+              <ul class="burger__menu-city burger__menu-city-active">
+                <li class="bmcd">Казахстан</li>
+                <li>Алматы</li>
+                <li>Актау</li>
+                <li>Астана</li>
+                <li>Аксай</li>
+                <li>Костанай</li>
+                <li>Карагандай</li>
+                <li>Уральск</li>
+                <li>Усть-Каменогорск</li>
+                <li>Шымкент</li>
+              </ul>
+              <ul
+                class="burger__menu-city burger__menu-city-active maping-list"
+              ></ul>
+              <div class="burger__footer">
+                <button class="burger__footer-btn">Забронировать</button>
+                <div class="burger__footer-lang">
+                  <span>RU</span>
+                  <span>EN</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-container-right">
+            <a href="#!">EN</a>
+            <a href="#!">Доставка</a>
+            <a href="#!" class="header-container-right-btn">
+              Забронировать
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="8"
+                viewBox="0 0 10 8"
+                fill="none"
+              >
+                <path
+                  d="M9.53674e-07 -4.37114e-07L10 4L6.03983e-07 8L9.53674e-07 -4.37114e-07Z"
+                  fill="#DFDFDF"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="section1__restoranfranchise__caption-main">
+      <p
+        class="section1-block__restoran section1-block__restoran-main franchise_cl-caption"
+      >
+        T a n g i e r S
+      </p>
+      <p
+        class="section1-block__restoran section1-block__restoran-main franchise_cl-caption"
+      >
+        L o u n g e
+      </p>
+      <div
+        class="section1__restoran-laptop main-page__caprion franchise_cl-caption"
+      >
+        <p class="pr-t">T</p>
+        <p class="pr-n">n</p>
+        <p class="pr-g">g</p>
+        <p class="bg-left">L</p>
+        <p class="prb-n">n</p>
+        <p class="prb-g">g</p>
+      </div>
+      <div class="letter-spacing-mob">
+        <svg
+          width="345"
+          height="186"
+          viewBox="0 0 345 186"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19.3446 100.072H27.6362V166.819H48.2532V174.646H19.3446V100.072Z"
+            fill="#DFDFDF"
+          />
+          <path
+            d="M137.645 174.646H129.354V96.941L187.619 157.875V100.072H195.911V178L137.645 117.066V174.646Z"
+            fill="#DFDFDF"
+          />
+          <path
+            d="M307.85 145.017V137.191H339V138.98C339 148.222 336.61 156.086 331.829 162.571C325.181 171.515 315.918 175.988 304.041 175.988C292.985 175.988 283.76 172.298 276.365 164.919C268.969 157.465 265.272 148.297 265.272 137.415C265.272 126.532 268.969 117.401 276.365 110.022C283.835 102.569 293.135 98.8417 304.265 98.8417C313.079 98.8417 320.699 101.301 327.123 106.221C330.41 108.755 333.286 111.699 335.751 115.053L329.588 120.644C327.422 117.588 325.069 115.016 322.529 112.929C317.375 108.755 311.324 106.668 304.377 106.668C295.488 106.668 288.167 109.612 282.415 115.501C276.663 121.389 273.788 128.731 273.788 137.526C273.788 143.937 275.356 149.564 278.494 154.409C281.631 159.179 285.441 162.683 289.923 164.919C294.479 167.08 299.223 168.161 304.153 168.161C309.083 168.161 313.565 167.043 317.599 164.807C321.707 162.496 324.844 159.44 327.011 155.639C328.878 152.434 329.887 148.893 330.036 145.017H307.85Z"
+            fill="#DFDFDF"
+          />
+          <path
+            d="M47.5955 18.9569H29.4435V85.7048H21.1519V18.9569H3V11.1306H47.5955V18.9569Z"
+            fill="#DFDFDF"
+          />
+          <path
+            d="M138.039 85.7048H129.747V8L188.013 68.934V11.1306H196.305V89.059L138.039 28.125V85.7048Z"
+            fill="#DFDFDF"
+          />
+          <path
+            d="M307.124 56.0764V48.25H338.273V50.0389C338.273 59.2815 335.883 67.1451 331.102 73.6298C324.454 82.5743 315.191 87.0465 303.314 87.0465C292.258 87.0465 283.033 83.3569 275.638 75.9778C268.243 68.5241 264.545 59.356 264.545 48.4736C264.545 37.5912 268.243 28.4604 275.638 21.0813C283.108 13.6275 292.408 9.9007 303.538 9.9007C312.352 9.9007 319.972 12.3604 326.396 17.2799C329.683 19.8141 332.559 22.7583 335.024 26.1125L328.861 31.7028C326.695 28.6468 324.342 26.0752 321.802 23.9882C316.648 19.8141 310.597 17.7271 303.65 17.7271C294.761 17.7271 287.44 20.6713 281.688 26.5597C275.937 32.4481 273.061 39.79 273.061 48.5854C273.061 54.9956 274.629 60.6231 277.767 65.468C280.904 70.2384 284.714 73.7417 289.196 75.9778C293.752 78.1393 298.496 79.2201 303.426 79.2201C308.356 79.2201 312.838 78.1021 316.872 75.866C320.98 73.5553 324.118 70.4993 326.284 66.6979C328.151 63.4928 329.16 59.9523 329.309 56.0764H307.124Z"
+            fill="#DFDFDF"
+          />
+        </svg>
+      </div>
+    </section>
+    <div class="container-rubber">
+      <section class="section1__franchise">
+        <div class="section1-line__franchise"></div>
+        <div class="container">
+          <h2 class="section1-title__franchise franchise-page-caption__block1">
+            An actively developing network of establishments <br />
+            in Russia, the USA, Kazakhstan and Europe.
+          </h2>
+          <div
+            class="section1-container__secret-assistants franchise-page-caption"
+          >
+            <h1>
+              Become part of the Tangiers Lounge <br />
+              franchise network
+            </h1>
+            <div class="section1-container-img__secret-assistants">
+              <img
+                src="/img/t2.png"
+                class="section1-container-img-blur__secret-assistants"
+                alt=""
+              />
+              <img
+                src="/img/t2.png"
+                alt=""
+                class="section1-container-img-main__secret-assistants"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section2__franchise">
+        <div class="section2-line__franchise"></div>
+        <div class="container">
+          <div
+            class="section2-container__franchise franchise-page__blocklast-br"
+          >
+            <img src="/img/face1.png" alt="" />
+            <p>
+              Tangiers Lounge was founded in 2018.<br />
+              During this time, we have managed<br />
+              to establish ourselves as leaders <br />
+              in service and quality.<br />
+            </p>
+          </div>
+          <div class="section2-container-bottom__franchise">
+            <div class="section2-container-bottom-block__franchise">
+              <p>33</p>
+              <span>Restaurants opened</span>
+            </div>
+            <div class="section2-container-bottom-block__franchise">
+              <p>>5000</p>
+              <span>Reviews from guests</span>
+            </div>
+            <div class="section2-container-bottom-block__franchise">
+              <p>>300 000</p>
+              <span>People visited <br />our establishments</span>
+            </div>
+            <div class="section2-container-bottom-block__franchise">
+              <p>>50 000</p>
+              <span>Followers <br />on social networks </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section3__franchise">
+        <div class="section3-line-l__franchise"></div>
+        <div class="section3-line-r__franchise"></div>
+        <div class="container">
+          <div class="section3-container__franchise">
+            <p>The interior combines English classics and grunge</p>
+            <div class="section3-container-block__franchise">
+              <img
+                src="/img/gal41.png"
+                alt=""
+                class="section3-container-bg__franchise"
+              />
+              <img
+                src="/img/gal41.png"
+                alt=""
+                class="section3-container-img__franchise"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section4__franchise">
+        <div class="section4-line__franchise"></div>
+        <div class="container">
+          <p class="section4-title__franchise">History of development</p>
+          <div
+            class="section4-container__franchise franchise-page__blocklast-br"
+          >
+            <p>
+              АArtyom Sinyakov together with Kirill<br />
+              Glushchenko founded the Art Hookah <br />
+              Family company in Bangkok, which was<br />
+              engaged in the production of designer<br />
+              hookahs “Temple 45” and the sale of<br />
+              the product in Russia
+            </p>
+            <button type="button">Our history</button>
+            <div class="section1-container-img__secret-assistants">
+              <img
+                src="/img/t2.png"
+                class="section1-container-img-blur__secret-assistants"
+                alt=""
+              />
+              <img
+                src="/img/t2.png"
+                alt=""
+                class="section1-container-img-main__secret-assistants"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section3__vacancy section5__franchise franchise-page-slider"
+      >
+        <div
+          class="section5-top-left__franchise-absolute section5-top-left__franchise"
+        >
+          What will you get from us
+        </div>
+        <div class="container section5-top-left__slider">
+          <div class="section5-top-left__slider-clear"></div>
+          <div
+            class="franchise-page-slide section3-container__vacancy franchise__sz franchise-page__desc"
+          >
+            <img src="/img/33.png" alt="" class="section3-img1__vacancy" />
+
+            <p
+              id="text1"
+              class="section7-p__vacancy section7-p__vacancy-active"
+            >
+              The franchise is more resistant to crisis situations and an
+              unstable economy, which increases its popularity in difficult
+              times
+            </p>
+
+            <p id="text2" class="section7-p__vacancy">
+              When you start your own business, you don’t want to make other
+              people’s mistakes. We have developed a working business model that
+              has already brought millions to its creators. Let it bring it to
+              you too!
+            </p>
+            <p id="text3" class="section7-p__vacancy">
+              You don't need to spend years acquiring business management skills
+              and experience. We are interested in getting you on track as
+              quickly as possible. Therefore, we provide advice and legal
+              support to our subsidiaries.
+            </p>
+            <p id="text4" class="section7-p__vacancy">
+              We will provide your employees with working recommendations on
+              organizing and conducting advertising campaigns, promotions and
+              events.
+            </p>
+            <p id="text5" class="section7-p__vacancy">
+              We went through the opening of the first establishment and
+              understand how important this moment is. We will train your staff
+              with our knowledge in its fullest. Starting from branded fillings
+              and ending with service standards.
+            </p>
+            <img src="/img/34.png" alt="" class="section3-img2__vacancy" />
+          </div>
+          <div class="section5-top-right__franchise">
+            <div
+              data-tabFran="#text1"
+              class="section5-top-right-block__franchise section5-top-right-block-active__franchise"
+            >
+              Stability
+            </div>
+            <div
+              data-tabFran="#text2"
+              class="section5-top-right-block__franchise"
+            >
+              Efficient business model
+            </div>
+            <div
+              data-tabFran="#text3"
+              class="section5-top-right-block__franchise"
+            >
+              Marketing
+            </div>
+            <div
+              data-tabFran="#text4"
+              class="section5-top-right-block__franchise"
+            >
+              Recognition and easy start
+            </div>
+            <div
+              data-tabFran="#text5"
+              class="section5-top-right-block__franchise"
+            >
+              Service standards
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section2__sertificate-mob">
+        <div
+          class="section2-title__sertificate-mob franchise-page-swiper-title__mob"
+        >
+          What will you get from us
+        </div>
+        <div class="container franchise-page-swiper__mob">
+          <div class="swiper mySwipersertificate">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div
+                  class="mySwipersertificate-block franchise-page-swiper-block__mob"
+                >
+                  <div
+                    class="section2-container__sertificate section2-container__sertificate-active"
+                  >
+                    <p class="franchise-page-swiper-desc__mob">
+                      The franchise is more resistant to crisis situations and
+                      an unstable economy, which increases its popularity in
+                      difficult times
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="mySwipersertificate-block franchise-page-swiper-block__mob"
+                >
+                  <div
+                    class="section2-container__sertificate section2-container__sertificate-active"
+                  >
+                    <p class="franchise-page-swiper-desc__mob">
+                      When you start your own business, you don’t want to make
+                      other people’s mistakes. We have developed a working
+                      business model that has already brought millions to its
+                      creators. Let it bring it to you too!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="mySwipersertificate-block franchise-page-swiper-block__mob slide-js"
+                >
+                  <div
+                    class="section2-container__sertificate section2-container__sertificate-active"
+                  >
+                    <p class="franchise-page-swiper-desc__mob">
+                      You don't need to spend years acquiring business
+                      management skills and experience. We are interested in
+                      getting you on track as quickly as possible. Therefore, we
+                      provide advice and legal support to our subsidiaries.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="mySwipersertificate-block franchise-page-swiper-block__mob"
+                >
+                  <div
+                    class="section2-container__sertificate section2-container__sertificate-active"
+                  >
+                    <p class="franchise-page-swiper-desc__mob">
+                      We will provide your employees with working
+                      recommendations on organizing and conducting advertising
+                      campaigns, promotions and events.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="mySwipersertificate-block franchise-page-swiper-block__mob"
+                >
+                  <div
+                    class="section2-container__sertificate section2-container__sertificate-active"
+                  >
+                    <p class="franchise-page-swiper-desc__mob mob-slide-mr">
+                      We went through the opening of the first establishment and
+                      understand how important this moment is. We will train
+                      your staff with our knowledge in its fullest. Starting
+                      from branded fillings and ending with service standards.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section2-bottom__sertificate-mob">
+          <div
+            class="swiper-button-prev swiper-button-next-sertificate franchise-page-swiper-btn__mob"
+          ></div>
+
+          <span class="titles"></span>
+
+          <div
+            class="swiper-button-next swiper-button-prev-sertificate franchise-page-swiper-btn__mob"
+          ></div>
+        </div>
+      </section>
+      <section class="section6__franchise">
+        <div class="section6__franchise-line line-height__bankets"></div>
+        <div class="container">
+          <div class="section6-block__franchise">
+            <h3>Financial indicators</h3>
+          </div>
+          <div class="section6-container__franchise">
+            <div class="section6-container-block__franchise">
+              <div class="section6-container-block-part__franchise">
+                <span>15-30 </span>
+                <p>million rub.</p>
+              </div>
+              <div class="section6-container-block-bottom__franchise">
+                investments
+              </div>
+            </div>
+            <div class="section6-container-block__franchise">
+              <div class="section6-container-block-part__franchise">
+                <span>4-12 </span>
+                <p>million rub.</p>
+              </div>
+              <div class="section6-container-block-bottom__franchise">
+                turnover
+              </div>
+            </div>
+            <div class="section6-container-block__franchise">
+              <div
+                class="section6-container-block-part__franchise franchise-page-caption__blocl1024"
+              >
+                <p>from</p>
+                <span>25%</span>
+              </div>
+              <div class="section6-container-block-bottom__franchise">
+                net profit
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="franchise__wrapper block-wrapper-one">
+        <div class="franchise__caption">
+          Who will bring you up to the results?
+        </div>
+        <div class="franchise__lineL franchise__hidden"></div>
+        <div class="franchise__lineR franchise__hidden"></div>
+        <div class="franchise__container franchise-page__container-title">
+          <div class="franchise__items">
+            <p class="franchise__item">
+              Artyom Sinyakov and Kirill Glushchenko
+            </p>
+            <span class="franchise__item">
+              The rightful owners of the Tangiers Lounge Mansion, travelers,
+              alchemists and mystics
+            </span>
+          </div>
+          <div class="franchise__img-container">
+            <img src="/img/img.png" class="franchise__img-front" />
+            <img src="/img/img.png" alt="" class="franchise__img" />
+          </div>
+        </div>
+      </section>
+      <section
+        class="section12__catering franchise-page__video"
+        style="background: url('/img/video2.png')"
+      >
+        <div
+          class="section12-container__catering franchise-page__container-img-f"
+        >
+          <div class="section12-title__catering">Video presentation</div>
+          <div
+            class="section12-container-video__catering franchise-page__container-img-btn"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="8"
+              viewBox="0 0 10 8"
+              fill="none"
+            >
+              <path
+                d="M9.53674e-07 -1.31134e-06L10 4L-9.53989e-08 8L9.53674e-07 -1.31134e-06Z"
+                fill="#0D0D0D"
+              ></path>
+            </svg>
+            Watch video
+          </div>
+        </div>
+      </section>
+      <section class="section3__looking-premises" style="margin-top: 0">
+        <div class="container section3__looking-premises-wrapper">
+          <div class="section3-container__looking-premises-lineL"></div>
+          <div class="section3-container__looking-premises-lineR"></div>
+          <div
+            class="section3-container__looking-premises section3-container__contacts franchise-page__block-open section6-container__career2"
+          >
+            <p
+              class="section3-text__secret-assistants section5-text__secret-assistants"
+              style="padding-top: 0"
+            >
+              Tangiers Lounge Franchise Opening Process
+            </p>
+            <div
+              class="section3-container__secret-assistants section5-container__secret-assistants franchise-page__container-img"
+            >
+              <div
+                class="section3-container-block__secret-assistants section3-container-img__contacts franchise-page__img"
+              >
+                <img
+                  src="/img/gal21.png"
+                  class="section3-container-block-bg__secret-assistants"
+                />
+                <img
+                  src="/img/gal21.png"
+                  alt=""
+                  class="section3-container-block-img__secret-assistants"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section4__looking-premises">
+        <div class="section4-container__looking-premises">
+          <div
+            class="section4-container-block__looking-premises looking-premises-p"
+          >
+            <p>
+              We will send you a list of requirements for the premises and help
+              you choose the best option.
+            </p>
+            <span>1</span>
+            <h5>Search for premises</h5>
+          </div>
+          <div
+            class="section4-container-block__looking-premises section4-container-block__looking-premises2 looking-premises-p"
+          >
+            <p>
+              We will develop an individual design project, taking into account
+              the architectural features of the room.
+            </p>
+            <span>2</span>
+            <h5>Agreement</h5>
+          </div>
+          <div
+            class="section4-container-block__looking-premises section4-container-block__looking-premises3 looking-premises-p"
+          >
+            <p>
+              We will send you a list of everything you need and provide
+              consulting support.
+            </p>
+            <span>3</span>
+            <h5>Design project</h5>
+          </div>
+          <div
+            class="section4-container-block__looking-premises section4-container-block__looking-premises4 looking-premises-p"
+          >
+            <p>
+              We will send you a list of everything you need and provide
+              consulting support.
+            </p>
+            <span>4</span>
+            <h5>Construction</h5>
+          </div>
+          <div
+            class="section4-container-block__looking-premises section4-container-block__looking-premises5 looking-premises-p"
+          >
+            <p>
+              A week before the opening, we will send service standards and
+              training materials. It is also possible for brand chefs to travel
+              to your city to train the team.
+            </p>
+            <span>5</span>
+            <h5>Education</h5>
+          </div>
+          <div
+            class="section4-container-block__looking-premises section4-container-block__looking-premises5 looking-premises-p"
+          >
+            <p>Technical, and then the grand official opening!</p>
+            <span>6</span>
+            <h5>Opening</h5>
+          </div>
+        </div>
+      </section>
+      <section class="franchise__wrapper franchise__wrapper-imgGal25">
+        <div class="franchise__lineL franchise__hidden"></div>
+        <div class="franchise__lineR franchise__hidden"></div>
+        <div
+          class="franchise__container franchise-page-container franchise-page-container__openBlock"
+        >
+          <div class="franchise__items franchise-page-caption__p">
+            <p class="franchise__item">What happens after the opening?</p>
+          </div>
+          <div class="franchise__img-container franchise__imgGal25">
+            <img src="/img/gal25.png" class="franchise__img-front" />
+            <img src="/img/gal25.png" alt="" class="franchise__img" />
+          </div>
+        </div>
+      </section>
+      <section class="section4__careeer">
+        <div class="section4__careeer-line"></div>
+        <div class="section4-container__careeer">
+          <div
+            class="section4-container-block__careeer franchise-page__container-list"
+          >
+            <div
+              class="section4-container-block-part__careeer looking-premises-p"
+            >
+              <h3>Promotion</h3>
+              <p>
+                Placement and promotion on all advertising channels of the
+                company, and this is more than 100,000 people in total audience.
+              </p>
+            </div>
+            <div
+              class="section4-container-block-part__careeer looking-premises-p"
+            >
+              <h3 class="franchise-page-pl">Community</h3>
+              <p>
+                A place in our big Art Hookah Family and Tangiers Lounge among
+                caring professionals.
+              </p>
+            </div>
+          </div>
+          <div
+            class="section4-container-block__careeer franchise-page__container-list"
+          >
+            <div
+              class="section4-container-block-part__careeer looking-premises-p"
+            >
+              <h3>Manager support</h3>
+              <p>
+                Your personal manager will always be in touch for any work
+                related issues.
+              </p>
+            </div>
+            <div
+              class="section4-container-block-part__careeer looking-premises-p"
+            >
+              <h3 class="franchise-page-pl">Marketing</h3>
+              <p>
+                We ourselves attract clients for you. Social networks,
+                contextual advertising, website - we take care of everything
+                within the allocated marketing budget.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-map__franchise">
+        <div class="map-container">
+          <div class="section-map-container__franchise">
+            <div class="section-map-top__franchise">
+              <div class="section-map-top-left__franchise">
+             Geography of projects
+              </div>
+              <div class="section-map-top-right__franchise">
+                <span
+                  data-franchise-map-change-type="worked"
+                  data-worked
+                  class="section-map-top-right__franchise-item--active"
+                  >Ongoing projects — 17</span
+                >
+                <span data-franchise-map-change-type="waited" data-waited
+                  >Getting ready to open — 17</span
+                >
+              </div>
+            </div>
+            <div class="section-map-bottom__franchise">
+              <a href="/index.html"
+                >Plans for 2023 include more than 20 new projects</a
+              >
+            </div>
+          </div>
+
+          <div
+            data-franchise-map-type="worked"
+            class="section-map-content__franchise-mob-parent"
+          >
+            <div class="section-map-content__franchise-mob">
+              <div class="section-map-content-block__franchise-mob">
+                <span>7</span>
+                <p>St. Petersburg</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>1</span>
+                <p>Rostov-on-Don</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>4</span>
+                <p>Moscow</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>1</span>
+                <p>Krasnodar</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>1</span>
+                <p>Kaliningrad</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>1</span>
+                <p>Kazan</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>1</span>
+                <p>Aktau</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>1</span>
+                <p>Almaty</p>
+              </div>
+            </div>
+          </div>
+          <div
+            data-franchise-map-type="worked"
+            class="section-map-content__franchise"
+            style="position: absolute; top: 0; bottom: 0; left: 0; right: 0"
+          >
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise1"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Kaliningrad</p>
+                  <span>1</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise2"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>St. Petersburg</p>
+                  <span>7</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise3"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Moscow</p>
+                  <span>4</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise4"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Kazan</p>
+                  <span>1</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise5"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Rostov-on-Don</p>
+                  <span>1</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise6"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Krasnodar</p>
+                  <span>1</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise7"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Aktau</p>
+                  <span>1</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise8"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Almaty</p>
+                  <span>1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            data-franchise-map-type="waited"
+            class="section-map-content__franchise-mob-parent"
+            style="visibility: hidden"
+          >
+            <div class="section-map-content__franchise-mob">
+              <div class="section-map-content-block__franchise-mob">
+                <span>10</span>
+                <p>St. Petersburg</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>10</span>
+                <p>Rostov-on-Don</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>10</span>
+                <p>Moscow</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>10</span>
+                <p>Krasnodar</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>10</span>
+                <p>Kaliningrad</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>10</span>
+                <p>Kazan</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>10</span>
+                <p>Aktau</p>
+              </div>
+              <div class="section-map-content-block__franchise-mob">
+                <span>10</span>
+                <p>Almaty</p>
+              </div>
+            </div>
+          </div>
+          <div
+            data-franchise-map-type="waited"
+            class="section-map-content__franchise"
+            style="
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              visibility: hidden;
+            "
+          >
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise1"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Kaliningrad</p>
+                  <span>10</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise2"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>St. Petersburg</p>
+                  <span>10</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise3"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Moscow</p>
+                  <span>10</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise4"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Kazan</p>
+                  <span>10</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise5"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Rostov-on-Don</p>
+                  <span>10</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise6"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Krasnodar</p>
+                  <span>10</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise7"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Aktau</p>
+                  <span>10</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-map-content-block__franchise section-map-content-block__franchise8"
+            >
+              <div class="section-map-content-block-into__franchise">
+                <img src="/img/Union-map.png" alt="" />
+                <div class="section-map-content-block-into-text__franchise">
+                  <p>Almaty</p>
+                  <span>10</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <img src="../img/map-fran.png" alt="map" class="map-image" />
+        </div>
+        <style>
+          .map-container {
+            position: relative;
+          }
+          .map-image {
+            width: 100%;
+          }
+          .section-map-container__franchise {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+            top: 0;
+            padding: 20px;
+            gap: 0;
+            justify-content: space-between;
+          }
+          .section-map-content__franchise {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+          }
+          .section-map-content__franchise > div {
+            position: absolute;
+            height: auto;
+            width: 8%;
+            aspect-ratio: 1 / 1;
+          }
+          .section-map-content__franchise img {
+            width: 100%;
+          }
+          .section-map-content-block-into__franchise {
+            width: 100%;
+            height: 100%;
+          }
+          .section-map-content-block-into-text__franchise {
+            height: 100%;
+            gap: 16px;
+          }
+          .section-map-content-block-into-text__franchise > p {
+            font-size: 0.7vw;
+            line-height: 1vw;
+            letter-spacing: 0.01em;
+          }
+          .section-map-content-block-into-text__franchise > span {
+            font-size: 2vw;
+            line-height: 2vw;
+            font-family: "Panama Regular", sans-serif;
+          }
+          .section-map-content-block__franchise1 {
+            top: 30%;
+            left: 14.5%;
+          }
+          .section-map-content-block__franchise2 {
+            top: 11%;
+            left: 29%;
+          }
+          .section-map-content-block__franchise3 {
+            top: 30%;
+            left: 34%;
+          }
+          .section-map-content-block__franchise4 {
+            top: 23%;
+            right: 41%;
+          }
+          .section-map-content-block__franchise5 {
+            top: 46%;
+            right: 50%;
+          }
+          .section-map-content-block__franchise6 {
+            bottom: 19.9%;
+            left: 37.6%;
+          }
+          .section-map-content-block__franchise7 {
+            top: 58%;
+            right: 35%;
+          }
+          .section-map-content-block__franchise8 {
+            top: 31%;
+            right: 4%;
+          }
+
+          .section-map-content-block__franchise-mob > p {
+            font-size: max(min(1.8vw, 18px), 16px);
+            line-height: max(min(2vw, 22px), 18px);
+          }
+          .section-map-content-block__franchise-mob > span {
+            font-size: max(min(5vw, 60px), 16px);
+            line-height: max(min(5.5vw, 66px), 16px);
+          }
+
+          @media (max-width: 800px) {
+            .map-container {
+              height: 500px;
+            }
+            .map-image {
+              height: 100%;
+              object-fit: cover;
+              object-position: 20%;
+            }
+            .section-map-content-block__franchise-mob > p {
+              font-size: max(min(1.8vw, 18px), 12px);
+              line-height: max(min(2vw, 22px), 16px);
+            }
+            .section-map-content-block__franchise-mob > span {
+              font-size: max(min(5vw, 60px), 28px);
+              line-height: max(min(5.5vw, 66px), 32px);
+            }
+          }
+        </style>
+      </section>
+      <section class="section7__secret-assistants">
+        <div class="container">
+          <div
+            class="section7-container__secret-assistants franchise-page-form"
+          >
+            <img
+              src="/img/gal5.png"
+              alt=""
+              class="section7-img__secret-assistants"
+            />
+            <p
+              class="section7-p__secret-assistants bankets__fs franchise-page-caption_fs"
+            >
+              Leave a request and <br />
+              we will contact you
+            </p>
+            <div class="section7-inputs__secret-assistants">
+              <input
+                type="text"
+                placeholder="Full name"
+                class="input-name__secret-assistants"
+              />
+              <input
+                type="tel"
+                placeholder="City"
+                class="input-name__secret-assistants"
+              />
+              <input
+                type="text"
+                id="zipCode"
+                onkeyup="mask('zipCode', '+7(000)000-00-00', event);"
+                placeholder="Phone"
+                class="input-city__secret-assistants tel"
+              />
+              <input
+                type="text"
+                placeholder="E-mail"
+                class="input-tel__secret-assistants"
+              />
+              <input
+                type="text"
+                placeholder="A comment"
+                class="input-name__secret-assistants"
+              />
+              <div class="radio">
+                <input
+                  class="custom-radio"
+                  type="checkbox"
+                  id="color-3"
+                  name="color"
+                  value="indigo"
+                />
+                <label for="color-3"
+                  >I agree to the processing of&nbsp;
+                  <a href="/">personal data</a></label
+                >
+              </div>
+              <button type="button">Send</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section3__secret-assistants section4__catering franchise-page__ca section13__catering"
+      >
+        <div class="section4-line1__catering"></div>
+        <div class="section4-line2__catering"></div>
+        <div class="section4-line3__catering"></div>
+        <div class="section4-line4__catering"></div>
+        <div class="container">
+          <p class="section3-text__secret-assistants">
+            7 <br />
+            mansions <br />
+            in your city
+          </p>
+          <a href="#!" class="catering-bottom-link-look-all">View all</a>
+          <div class="section3-container__secret-assistants">
+            <div
+              class="franchise-page-container__blockImg section3-container-block__secret-assistants section3-container-block__secret-assistants2 section3-container-block-img__catering"
+            >
+              <img
+                src="/img/gal28.png"
+                alt=""
+                class="section3-container-block-bg__secret-assistants Imgbg-hidden"
+              />
+              <img
+                src="/img/gal28.png"
+                alt=""
+                class="section3-container-block-img__catering"
+              />
+              <div class="section13-container-block-text__catering">
+                <p>Tangiers Lounge</p>
+                <span>Dalnevostochny pr-kt, 12</span>
+              </div>
+            </div>
+            <div
+              class="section3-container-block__secret-assistants section3-container-block__secret-assistants2 section3-container-block-img__catering section3-container-block-img-active__catering"
+            >
+              <img
+                src="/img/gal27.png"
+                class="section3-container-block-bg__secret-assistants Imgbg-hidden"
+              />
+              <img
+                src="/img/gal27.png"
+                alt=""
+                class="section3-container-block-img__secret-assistants"
+              />
+              <div class="section13-container-block-text__catering">
+                <p>Tangiers Lounge</p>
+                <span>Gastello st., 22B</span>
+              </div>
+            </div>
+            <div
+              class="franchise-page-container__blockImg section3-container-block__secret-assistants section3-container-block__secret-assistants2 section3-container-block-img__catering"
+            >
+              <img
+                src="/img/gal29.png"
+                alt=""
+                class="section3-container-block-bg__secret-assistants Imgbg-hidden"
+              />
+              <img
+                src="/img/gal29.png"
+                alt=""
+                class="section3-container-block-img__secret-assistants"
+              />
+              <div class="section13-container-block-text__catering">
+                <p>Tangiers Lounge</p>
+                <span>Hochimin st., 16</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a href="#!" class="section14__catering">View on map</a>
+    </div>
+  <footer class="footer">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-container-left">
+              <div class="footer-container-left-colum">
+                <a href="/">Restaurants</a>
+                <a href="/">Delivery</a>
+                <a href="/">Franchise</a>
+                <a href="/">Catering</a>
+                <a href="/">About Us</a>
+                <a href="/">Contacts</a>
+              </div>
+              <div class="footer-container-left-colum">
+                <a href="/">News</a>
+                <a href="/">Career</a>
+                <a href="/">Become a secret guest</a>
+                <a href="/">We are looking for premises</a>
+                <a href="/">Certificate</a>
+              </div>
+            </div>
+            <div class="footer-container-right">
+              <a href="/" class="btn-footer-rev">Leave a review</a>
+              <a href="/" class="btn-footer-program-loyal"
+                >Loyalty program</a
+              >
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-bottom-left footer-reverse">
+              <a href="/">Subscribe to newsletter</a>
+              <a href="/">Privacy Policy  </a>
+            </div>
+            <div class="footer-bottom-social">
+              <a href="/" class="footer-bottom-social-ellipse"> FB </a>
+              <a href="/" class="footer-bottom-social-ellipse"> IN </a>
+              <a href="/" class="footer-bottom-social-ellipse"> FB </a>
+            </div>
+            <div class="footer-bottom-right ds-none">
+              <p>© 2022 Tangiers Lounge</p>
+              <p>ART HOOKAH FAMILY</p>
+            </div>
+          </div>
+          <div class="footer-mb">
+            <p>© 2022 Tangiers Lounge</p>
+            <p>ART HOOKAH FAMILY</p>
+          </div>
+        </div>
+      </footer>
+           <footer class="footer vatieble-two" style="display: none;">
+        <div class="container container-ds-none-s">
+          <div class="footer-container">
+            <div class="footer-vatieble-two__left">
+              <div class="footer-vatieble-two__call">
+                <a href="tel:+79585384020">7 958 5384020</a>
+                <svg
+                  width="15"
+                  height="34"
+                  viewBox="0 0 15 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.33199 32.2773C9.53218 32.0812 9.71085 31.8643 9.86493 31.6302C12.8454 27.2218 14.5205 22.0614 14.6975 16.743C14.8101 11.4759 13.394 6.28909 10.6203 1.81001C10.2692 1.25713 9.78165 0.803909 9.20464 0.493968C8.62763 0.184026 7.98056 0.0277903 7.32569 0.0402918L2.69928 0.0681735C2.46497 0.0716467 2.23403 0.124488 2.02153 0.22325C1.80903 0.322012 1.61974 0.464473 1.46602 0.641336C1.31021 0.828389 1.19726 1.04731 1.13514 1.28269C1.07301 1.51807 1.0632 1.76421 1.1064 2.00379L2.41912 9.32231C2.47394 9.6025 2.61725 9.85769 2.82796 10.0503C3.03867 10.243 3.30566 10.3629 3.58963 10.3925L6.83238 10.7236C7.52221 12.6255 7.83995 14.6423 7.76828 16.6642C7.7388 18.7157 7.31619 20.7427 6.52336 22.6351L3.23066 22.9692C2.9547 22.9978 2.694 23.1098 2.48322 23.2902C2.27244 23.4706 2.12155 23.7109 2.05062 23.9791L0.381656 31.2822C0.316957 31.5252 0.308086 31.7797 0.355706 32.0266C0.403326 32.2735 0.506201 32.5065 0.656626 32.708C0.807053 32.9095 1.00113 33.0743 1.22432 33.1902C1.4475 33.306 1.69401 33.3699 1.94538 33.377L6.51793 33.4132C7.03871 33.4187 7.55544 33.3212 8.03839 33.1263C8.52134 32.9313 8.96097 32.6428 9.33199 32.2773ZM2.7129 1.73016L7.33931 1.70228C7.70662 1.69412 8.06972 1.7817 8.39291 1.95641C8.7161 2.13112 8.98825 2.38695 9.1826 2.69872C11.7922 6.89495 13.1307 11.7571 13.0362 16.6977C12.869 21.702 11.2919 26.5573 8.48628 30.7046C8.27456 31.0192 7.98809 31.2763 7.65254 31.453C7.317 31.6296 6.94286 31.7202 6.56369 31.7166L1.99115 31.6804L3.60377 24.63L7.14425 24.2756C7.27942 24.2616 7.40913 24.2148 7.52208 24.1393C7.63502 24.0637 7.72778 23.9617 7.79226 23.8421C8.8535 21.6195 9.41049 19.1899 9.42341 16.7271C9.53896 14.2845 9.10147 11.8474 8.14358 9.59754C8.07405 9.47259 7.97353 9.36762 7.85169 9.29275C7.72985 9.21788 7.59079 9.17563 7.4479 9.17005L3.95799 8.81207L2.7129 1.73016Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+              <span>Booking a table:</span>
+            </div>
+            <div class="footer-container-right">
+              <a href="/" class="btn-footer-rev">Leave a review</a>
+            </div>
+            <div
+              class="footer-bottom-left footer-reverse footer-bottom-left-two-pol"
+            >
+              <a href="/">Subscribe to newsletter</a>
+              <a href="/">Privacy Policy</a>
+            </div>
+          </div>
+          <div class="footer-bottom-two__call">
+            <div class="footer-container-left">
+              <div class="footer-container-left-colum">
+                <a href="/">Restaurants</a>
+                <a href="/">Delivery</a>
+                <a href="/">Franchise</a>
+                <a href="/">Catering</a>
+                <a href="/">About Us</a>
+                <a href="/">Contacts</a>
+              </div>
+              <div class="footer-container-left-colum">
+                <a href="/">News</a>
+                <a href="/">Career</a>
+                <a href="/">Become a secret guest</a>
+                <a href="/">We are looking for premises</a>
+                <a href="/">Certificate</a>
+                <a href="/">Loyalty program</a>
+              </div>
+            </div>
+            <div class="footer-bottom-social footer-bottom-social-two">
+              <a href="/" class="footer-bottom-social-ellipse"> FB </a>
+              <a href="/" class="footer-bottom-social-ellipse"> IN </a>
+              <a href="/" class="footer-bottom-social-ellipse"> FB </a>
+            </div>
+            <div class="footer-bottom-right ds-none">
+              <p>© 2022 Tangiers Lounge</p>
+              <p>ART HOOKAH FAMILY</p>
+            </div>
+          </div>
+          <div class="footer-mb">
+            <p>© 2022 Tangiers Lounge</p>
+            <p>ART HOOKAH FAMILY</p>
+          </div>
+        </div>
+        <div class="container container-two container-ds-none">
+          <div class="footer-container footer-container-mob">
+            <div class="footer-vatieble-two__left">
+              <div class="footer-vatieble-two__call">
+                <a href="tel:+79585384020">7 958 5384020</a>
+                <svg
+                  width="15"
+                  height="34"
+                  viewBox="0 0 15 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.33199 32.2773C9.53218 32.0812 9.71085 31.8643 9.86493 31.6302C12.8454 27.2218 14.5205 22.0614 14.6975 16.743C14.8101 11.4759 13.394 6.28909 10.6203 1.81001C10.2692 1.25713 9.78165 0.803909 9.20464 0.493968C8.62763 0.184026 7.98056 0.0277903 7.32569 0.0402918L2.69928 0.0681735C2.46497 0.0716467 2.23403 0.124488 2.02153 0.22325C1.80903 0.322012 1.61974 0.464473 1.46602 0.641336C1.31021 0.828389 1.19726 1.04731 1.13514 1.28269C1.07301 1.51807 1.0632 1.76421 1.1064 2.00379L2.41912 9.32231C2.47394 9.6025 2.61725 9.85769 2.82796 10.0503C3.03867 10.243 3.30566 10.3629 3.58963 10.3925L6.83238 10.7236C7.52221 12.6255 7.83995 14.6423 7.76828 16.6642C7.7388 18.7157 7.31619 20.7427 6.52336 22.6351L3.23066 22.9692C2.9547 22.9978 2.694 23.1098 2.48322 23.2902C2.27244 23.4706 2.12155 23.7109 2.05062 23.9791L0.381656 31.2822C0.316957 31.5252 0.308086 31.7797 0.355706 32.0266C0.403326 32.2735 0.506201 32.5065 0.656626 32.708C0.807053 32.9095 1.00113 33.0743 1.22432 33.1902C1.4475 33.306 1.69401 33.3699 1.94538 33.377L6.51793 33.4132C7.03871 33.4187 7.55544 33.3212 8.03839 33.1263C8.52134 32.9313 8.96097 32.6428 9.33199 32.2773ZM2.7129 1.73016L7.33931 1.70228C7.70662 1.69412 8.06972 1.7817 8.39291 1.95641C8.7161 2.13112 8.98825 2.38695 9.1826 2.69872C11.7922 6.89495 13.1307 11.7571 13.0362 16.6977C12.869 21.702 11.2919 26.5573 8.48628 30.7046C8.27456 31.0192 7.98809 31.2763 7.65254 31.453C7.317 31.6296 6.94286 31.7202 6.56369 31.7166L1.99115 31.6804L3.60377 24.63L7.14425 24.2756C7.27942 24.2616 7.40913 24.2148 7.52208 24.1393C7.63502 24.0637 7.72778 23.9617 7.79226 23.8421C8.8535 21.6195 9.41049 19.1899 9.42341 16.7271C9.53896 14.2845 9.10147 11.8474 8.14358 9.59754C8.07405 9.47259 7.97353 9.36762 7.85169 9.29275C7.72985 9.21788 7.59079 9.17563 7.4479 9.17005L3.95799 8.81207L2.7129 1.73016Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+                  <span>Booking a table:</span>
+            </div>
+            <div class="footer-container-left">
+             <div class="footer-container-left-colum">
+                <a href="/">Restaurants</a>
+                <a href="/">Delivery</a>
+                <a href="/">Franchise</a>
+                <a href="/">Catering</a>
+                <a href="/">About Us</a>
+                <a href="/">Contacts</a>
+              </div>
+              <div class="footer-container-left-colum">
+                <a href="/">News</a>
+                <a href="/">Career</a>
+                <a href="/">Become a secret guest</a>
+                <a href="/">We are looking for premises</a>
+                <a href="/">Certificate</a>
+                <a href="/">Loyalty program</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom-two__call footer-bottom-two__call-mob">
+            <div class="footer-bottom-left-mob">
+              <div class="footer-container-right">
+              <a href="/" class="btn-footer-rev">Leave a review</a>
+            </div>
+              <div class="footer-bottom-social footer-bottom-social-two">
+              <a href="/" class="footer-bottom-social-ellipse"> FB </a>
+              <a href="/" class="footer-bottom-social-ellipse"> IN </a>
+              <a href="/" class="footer-bottom-social-ellipse"> FB </a>
+            </div>
+            </div>
+            <div class="footer-container-right dd-ss-none">
+              <a href="/" class="btn-footer-rev">Leave a review</a>
+            </div>
+            <div
+              class="footer-bottom-left footer-reverse footer-bottom-left-two-pol footer-bottom-left-two-pol-mob"
+            >
+              <a href="/">Subscribe to newsletter</a>
+              <a href="/">Privacy Policy</a>
+            </div>
+            <div class="footer-bottom-social footer-bottom-social-two dd-ss-none">
+              <a href="/" class="footer-bottom-social-ellipse"> FB </a>
+              <a href="/" class="footer-bottom-social-ellipse"> IN </a>
+              <a href="/" class="footer-bottom-social-ellipse"> FB </a>
+            </div>
+            <div class="footer-bottom-right footer-bottom-left-two-right-pol-mob">
+              <p>© 2022 Tangiers Lounge</p>
+              <p>ART HOOKAH FAMILY</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <div class="modal-history">
+      <div class="modal-history-content">
+        <div class="modal-history-content-top">
+          <p>History of Tangiers Lounge</p>
+          <img src="/img/Close-history.png" alt="" />
+        </div>
+        <div class="modal-history-content-blocks">
+          <div class="modal-history-content-block">
+            <div class="modal-history-content-block-top">
+              <div class="modal-history-content-block-top-part">
+                <p>Creation of Art Hookah Family</p>
+              </div>
+              <div class="modal-history-content-block-top-part">
+                <p>Temple 45 hookahs</p>
+              </div>
+            </div>
+            <div class="modal-history-content-block-date">2012</div>
+          </div>
+          <div class="modal-history-content-block">
+            <div class="modal-history-content-block-top">
+              <div class="modal-history-content-block-top-part">
+                <span>May:</span>
+                <p>US Sales Office</p>
+              </div>
+              <div class="modal-history-content-block-top-part">
+                <span>September:</span>
+                <p>Sales office in Russia</p>
+              </div>
+            </div>
+            <div class="modal-history-content-block-date">2013</div>
+          </div>
+          <div class="modal-history-content-block">
+            <div class="modal-history-content-block-top">
+              <div class="modal-history-content-block-top-part">
+                <p>USA International Exhibition</p>
+              </div>
+            </div>
+            <div class="modal-history-content-block-date">2014</div>
+          </div>
+          <div class="modal-history-content-block">
+            <div class="modal-history-content-block-top">
+              <div class="modal-history-content-block-top-part">
+                <p>Launch of the Hookah Boss Youtube channel</p>
+              </div>
+              <div class="modal-history-content-block-top-part">
+                <p>Art Hookah Lounge in San Diego</p>
+              </div>
+            </div>
+            <div class="modal-history-content-block-date">2015</div>
+          </div>
+          <div class="modal-history-content-block">
+            <div class="modal-history-content-block-top">
+              <div class="modal-history-content-block-top-part">
+                <p>Hotel Dalisi in St. Petersburg</p>
+              </div>
+            </div>
+            <div class="modal-history-content-block-date">2016</div>
+          </div>
+        <div class="modal-history-content-block">
+            <div class="modal-history-content-block-top">
+              <div class="modal-history-content-block-top-part">
+                <span>March:</span>
+                <p>Hookah Box in St. Petersburg</p>
+              </div>
+              <div class="modal-history-content-block-top-part">
+                <span>November:</span>
+                <p>Hookah Box Aviator in St. Petersburg</p>
+              </div>
+            </div>
+            <div class="modal-history-content-block-date">2017</div>
+          </div>
+          <div class="modal-history-content-block">
+            <div class="modal-history-content-block-top">
+              <div class="modal-history-content-block-top-part">
+                <p>Distribution of Tangiers Tobacco and Qoco Turbo</p>
+              </div>
+              <div class="modal-history-content-block-top-part">
+                <p>Launch of the Tangiers Lounge franchise network</p>
+              </div>
+            </div>
+            <div class="modal-history-content-block-date">2018</div>
+          </div>
+           <div class="modal-history-content-block">
+            <div class="modal-history-content-block-top">
+              <div class="modal-history-content-block-top-part">
+                <p>Azure Distribution</p>
+              </div>
+            </div>
+            <div class="modal-history-content-block-date">2019</div>
+          </div>
+          <div class="modal-history-content-block">
+            <div class="modal-history-content-block-top">
+              <div class="modal-history-content-block-top-part">
+                <p>More than 20 Tangiers Lounge establishments throughout Russia, Kazakhstan and the USA</p>
+              </div>
+            </div>
+            <div class="modal-history-content-block-date">2020</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      let btnHistory = document.querySelector(
+        ".section4-container__franchise button"
+      );
+      let modalHistory = document.querySelector(".modal-history");
+      let modalClose = document.querySelector(".modal-history-content-top img");
+      btnHistory.addEventListener("click", function () {
+        modalHistory.style.display = "block";
+      });
+      modalClose.addEventListener("click", function () {
+        modalHistory.style.display = "none";
+      });
+    </script>
+    <script>
+      const btnFran = document.querySelectorAll(
+        ".section5-top-right-block__franchise"
+      );
+      const tabFran = document.querySelectorAll(".section7-p__vacancy");
+
+      btnFran.forEach(function (item) {
+        item.addEventListener("click", function () {
+          btnFran.forEach(function (i) {
+            i.classList.remove("section5-top-right-block-active__franchise");
+          });
+
+          item.classList.add("section5-top-right-block-active__franchise");
+
+          let tubIDFran = item.getAttribute("data-tabFran");
+          let tabActiveFran = document.querySelector(tubIDFran);
+
+          tabFran.forEach(function (item) {
+            item.classList.remove("section7-p__vacancy-active");
+          });
+          tabActiveFran.classList.add("section7-p__vacancy-active");
+        });
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      const title = document.querySelector(".titles");
+      const items = [
+        "Стабильность",
+        "Эффективная бизнес-модель",
+        "Маркетинг",
+        "Узнаваемость и легкий старт",
+        "Стандарты сервиса",
+      ];
+
+      const addInitText = (text) => {
+        title.innerHTML = text || "";
+      };
+
+      const swiper = new Swiper(".mySwipersertificate", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        on: {
+          init: (swiper) => {
+            title && addInitText(items[swiper.activeIndex]);
+          },
+          activeIndexChange: (swiper) => {
+            title && addInitText(items[swiper.activeIndex]);
+          },
+        },
+
+        cssMode: true,
+      });
+
+      swiper.init();
+    </script>
+    <script src="/js/script.js"></script>
+
+    <div class="modal-map">
+      <img src="/img/Map.png" alt="" class="modal-map-bg" />
+      <img src="/img/close-map.png" alt="" class="modal-map-close" />
+    </div>
+
+    <div class="modal-header-book">
+      <div class="modal-header-book-content">
+        <div class="modal-header-book-content-part">
+          <div class="modal-header-book-content-top">
+            <p>Забронировать стол</p>
+            <img src="/img/Close.png" alt="" class="modal-header-book-close" />
+          </div>
+          <div class="modal-header-book-content-middle">
+            <input type="text" placeholder="Имя" />
+            <div class="modal-header-book-content-middle-select">
+              <select>
+                <option disabled selected>Ресторан</option>
+                <option>Ресторан</option>
+              </select>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="10"
+                viewBox="0 0 8 10"
+                fill="none"
+              >
+                <path
+                  d="M8 9.53674e-07L4 10L8.74228e-07 2.54292e-07L8 9.53674e-07Z"
+                  fill="#DFDFDF"
+                />
+              </svg>
+            </div>
+            <input
+              type="text"
+              id="zipCode"
+              onkeyup="mask('zipCode', '+7(000)000-00-00', event);"
+              placeholder="Телефон"
+              class="modal-header-book-content-middle-short tel middle-mob"
+            />
+            <input
+              type="number"
+              placeholder="Количество человек"
+              class="modal-header-book-content-middle-short middle-mob"
+            />
+            <div class="date-input middle-mob">
+              <input
+                type="date"
+                placeholder="Дата"
+                class="modal-header-book-content-middle-short middle-mob"
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="10"
+                viewBox="0 0 8 10"
+                fill="none"
+              >
+                <path
+                  d="M8 9.53674e-07L4 10L8.74228e-07 2.54292e-07L8 9.53674e-07Z"
+                  fill="#DFDFDF"
+                />
+              </svg>
+            </div>
+
+            <input
+              type="text"
+              placeholder="Время"
+              onfocus="this.type='time'"
+              onblur="this.type='text'"
+              class="modal-header-book-content-middle-short middle-mob"
+            />
+            <div class="radio">
+              <input
+                class="custom-radio"
+                type="radio"
+                id="color-1"
+                name="color"
+                value="indigo"
+              />
+              <label for="color-1"
+                >Даю согласие на обработку персональных данных</label
+              >
+            </div>
+          </div>
+        </div>
+        <button class="modal-header-book-btn">Отправить</button>
+      </div>
+    </div>
+    <section class="univers__modal univers__hidden">
+      <div class="univers__wrapper">
+        <div class="univers__backdrop"></div>
+        <div class="univers__container age-us-container">
+          <div class="age-container">
+            <h2 class="age-title">вам уже исполнилось 18 лет?</h2>
+            <span class="age-desc"
+              >Посещение сайта возможно только при достижении совершеннолетнего
+              возраста.
+            </span>
+            <div class="age-btn">
+              <button onclick="handleOK()">Да</button>
+              <button onclick="handleNot()">Нет</button>
+            </div>
+          </div>
+          <div class="age-container age-Not isNot">
+            <span class="age-desc"
+              >Мистер Т. откроет двери своего Особняка как только ты будешь
+              готов к этому, дорогой друг!
+            </span>
+            <span class="age-desc age-fw"
+              >Увидимся после твоего совершеннолетия.
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="univers__modal cookies__hidden">
+      <div class="univers__wrapper">
+        <div class="univers__backdrop cookies-bg"></div>
+        <div class="univers__container cookies-mw">
+          <div class="cookies-container">
+            <div class="cookies-title">
+              <h3>Мы используем файлы cookies</h3>
+              <span
+                >Оставаясь на сайте, вы соглашаетесь c<a href="#">
+                  условиями использования cookies.</a
+                ></span
+              >
+            </div>
+            <div class="age-btn cookies-btn">
+              <button onclick="handleOK()" class="btn-hidden">ОК</button>
+              <div onclick="handleOK()" class="btn-hidden-mob">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g filter="url(#filter0_b_2387_14338)">
+                    <rect
+                      x="1"
+                      y="1"
+                      width="22"
+                      height="22"
+                      rx="11"
+                      fill="#C4C4C4"
+                      fill-opacity="0.01"
+                    />
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width="23"
+                      height="23"
+                      rx="11.5"
+                      stroke="#454545"
+                    />
+                  </g>
+                  <path d="M15.082 8.92004L8.92208 15.08" stroke="#DFDFDF" />
+                  <path d="M15.082 15.0801L8.92208 8.92013" stroke="#DFDFDF" />
+                  <defs>
+                    <filter
+                      id="filter0_b_2387_14338"
+                      x="-84"
+                      y="-84"
+                      width="192"
+                      height="192"
+                      filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB"
+                    >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feGaussianBlur
+                        in="BackgroundImageFix"
+                        stdDeviation="42"
+                      />
+                      <feComposite
+                        in2="SourceAlpha"
+                        operator="in"
+                        result="effect1_backgroundBlur_2387_14338"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in="SourceGraphic"
+                        in2="effect1_backgroundBlur_2387_14338"
+                        result="shape"
+                      />
+                    </filter>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="univers__modal cookies__hidden">
+      <div class="univers__wrapper">
+        <div class="univers__backdrop cookies-bg"></div>
+        <div class="univers__container cookies-mw__EN">
+          <div class="cookies-container cookies__EN">
+            <div class="cookies-title cookies-title__EN">
+              <p>
+                We use essential cookies to make our site work. With your
+                consent, we may also use non-essential cookies to improve user
+                experience and analyze website traffic. By clicking “Accept,”
+                you agree to our website's cookie use as described in our
+                <u>Cookie Policy</u>. You can change your cookie settings at any
+                time by clicking <u>“Preferences.”</u>
+              </p>
+            </div>
+            <div class="age-btn cookies-btn cookies-btn__EN">
+              <button onclick="handleMoreEn()">Preferences</button>
+              <button class="btn__en-bg" onclick="handleOK()">decline</button>
+              <button class="btn__en-bg" onclick="handleOK()">accept</button>
+            </div>
+          </div>
+          <div class="cookies-container cookies__EN cookies-preferences">
+            <div
+              class="cookies-title cookies-title__EN cookies-preferences-title"
+            >
+              <div class="cookies-caption__EN">
+                <h3>preferences</h3>
+                <div onclick="handleOK()">
+                  <svg
+                    width="42"
+                    height="42"
+                    viewBox="0 0 42 42"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g filter="url(#filter0_b_2387_13981)">
+                      <rect
+                        x="1"
+                        y="1"
+                        width="40"
+                        height="40"
+                        rx="20"
+                        fill="#C4C4C4"
+                        fill-opacity="0.01"
+                      />
+                      <rect
+                        x="0.5"
+                        y="0.5"
+                        width="41"
+                        height="41"
+                        rx="20.5"
+                        stroke="#454545"
+                      />
+                    </g>
+                    <path
+                      d="M26.5977 15.3999L15.3977 26.5998"
+                      stroke="#DFDFDF"
+                    />
+                    <path
+                      d="M26.5977 26.5999L15.3977 15.3999"
+                      stroke="#DFDFDF"
+                    />
+                    <defs>
+                      <filter
+                        id="filter0_b_2387_13981"
+                        x="-84"
+                        y="-84"
+                        width="210"
+                        height="210"
+                        filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB"
+                      >
+                        <feFlood
+                          flood-opacity="0"
+                          result="BackgroundImageFix"
+                        />
+                        <feGaussianBlur
+                          in="BackgroundImageFix"
+                          stdDeviation="42"
+                        />
+                        <feComposite
+                          in2="SourceAlpha"
+                          operator="in"
+                          result="effect1_backgroundBlur_2387_13981"
+                        />
+                        <feBlend
+                          mode="normal"
+                          in="SourceGraphic"
+                          in2="effect1_backgroundBlur_2387_13981"
+                          result="shape"
+                        />
+                      </filter>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+
+              <p>
+                We use essential cookies to make our site work. With your
+                consent, we may also use non-essential cookies to improve user
+                experience and analyze website traffic. By clicking “Accept,”
+                you agree to our website's cookie use as described in our
+                <u>Cookie Policy</u>. You can change your cookie settings at any
+                time by clicking <u>“Preferences.”</u>
+              </p>
+            </div>
+            <div class="cookies-content__EN">
+              <div class="cookies-item">
+                <div class="radio cookies-radio">
+                  <input
+                    class="custom-radio"
+                    type="checkbox"
+                    id="color-2"
+                    name="cookies"
+                    value="indigo"
+                    checked
+                  />
+                  <label for="color-2"></label>
+                </div>
+                <div class="item-EN">
+                  <span class="item-EN__color"
+                    >Essential Cookies (14) <u>Details</u></span
+                  >
+                  <span
+                    >These cookies are necessary to the core functionality of
+                    our website and some of its features, such as access to
+                    secure areas.</span
+                  >
+                </div>
+              </div>
+              <div class="cookies-item">
+                <div class="radio cookies-radio">
+                  <input
+                    class="custom-radio"
+                    type="checkbox"
+                    id="color-3"
+                    name="cookies"
+                    value="indigo"
+                  />
+                  <label for="color-3"></label>
+                </div>
+                <div class="item-EN">
+                  <span class="item-EN__color"
+                    >Performance and Functionality Cookies (11)
+                    <u>Details</u></span
+                  >
+                  <span
+                    >These cookies are used to enhance the performance and
+                    functionality of our websites but are nonessential to their
+                    use. However, without these cookies, certain functionality
+                    (like videos) may become unavailable.</span
+                  >
+                </div>
+              </div>
+              <div class="cookies-item">
+                <div class="radio cookies-radio">
+                  <input
+                    class="custom-radio"
+                    type="checkbox"
+                    id="color-13"
+                    name="cookies"
+                    value="indigo"
+                  />
+                  <label for="color-13"></label>
+                </div>
+                <div class="item-EN">
+                  <span class="item-EN__color"
+                    >Analytics and Customization Cookies (18)
+                    <u>Details</u></span
+                  >
+                  <span
+                    >These cookies collect information that can help us
+                    understand how our websites are being used. This information
+                    can also be used to measure effectiveness in our marketing
+                    campaigns or to curate a personalized site experience for
+                    you.</span
+                  >
+                </div>
+              </div>
+              <div class="cookies-item">
+                <div class="radio cookies-radio">
+                  <input
+                    class="custom-radio"
+                    type="checkbox"
+                    id="color-14"
+                    name="cookies"
+                    value="indigo"
+                  />
+                  <label for="color-14"></label>
+                </div>
+                <div class="item-EN">
+                  <span class="item-EN__color"
+                    >Advertising Cookies (15) <u>Details</u></span
+                  >
+                  <span
+                    >These cookies are used to make advertising messages more
+                    relevant to you. They prevent the same ad from continuously
+                    reappearing, ensure that ads are properly displayed for
+                    advertisers, and in some cases select advertisements that
+                    are based on your interests.</span
+                  >
+                </div>
+              </div>
+              <div class="cookies-item">
+                <div class="radio cookies-radio">
+                  <input
+                    class="custom-radio"
+                    type="checkbox"
+                    id="color-15"
+                    name="cookies"
+                    value="indigo"
+                  />
+                  <label for="color-15"></label>
+                </div>
+                <div class="item-EN">
+                  <span class="item-EN__color"
+                    >Social networking Cookies (15) <u>Details</u></span
+                  >
+                  <span
+                    >These cookies enable you to share our website's content
+                    through third-party social networks and other websites.
+                    These cookies may also be used for advertising
+                    purposes.</span
+                  >
+                </div>
+              </div>
+              <div class="cookies-item">
+                <div class="radio cookies-radio">
+                  <input
+                    class="custom-radio"
+                    type="checkbox"
+                    id="color-17"
+                    name="cookies"
+                    value="indigo"
+                  />
+                  <label for="color-17"></label>
+                </div>
+                <div class="item-EN">
+                  <span class="item-EN__color"
+                    >Unclassified Cookies (15) <u>Details</u></span
+                  >
+                  <span
+                    >These are cookies that have not yet been categorized. We
+                    are in the process of classifying these cookies with the
+                    help of their providers.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="age-btn cookies-btn cookies-btn__EN cookies-preferences-btn"
+            >
+              <button class="btn__en-bg" onclick="handleOK()">decline</button>
+              <button class="btn__en-bg" onclick="handleOK()">accept</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/js/index.js"></script>
+    <script src="/js/header.js"></script>
+    <script src="/js/mapModal.js"></script>
+    <script src="/js/modals.js"></script>
+    <script src="/js/franchiseMap.js"></script>
+  </body>
+</html>

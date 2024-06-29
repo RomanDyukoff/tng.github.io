@@ -1,0 +1,43 @@
+.header-news {
+  position: relative !important;
+}
+@media (max-width: 850px) {
+  .title{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .img{
+    margin: 0 auto;
+  }
+  .news__description{
+    max-width: 690px;
+  }
+  .title-gl{
+    max-width: 630px !important;
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+
+  .news__description{
+    max-width: 445px;
+  }
+}
+@media (max-width: 475px) {
+    .title{
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .img{
+    margin: 0 auto;
+  }
+  .caption__top{
+
+    font-size: 28px;
+    line-height: 32px;
+  }
+   .news__description{
+       max-width: 345px;
+  
+  }
+}

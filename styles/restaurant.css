@@ -1,0 +1,211 @@
+.restaurant-page__caption > h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+.section2__restoran-pt {
+  padding-bottom: 75px !important;
+}
+
+.slider-section-line-l {
+  left: 26%;
+}
+.swiper-button-prev-main {
+  left: 26% !important;
+}
+.slider-section {
+  position: relative;
+  padding: 317px 0 381px 0;
+}
+.section4-text__restoran {
+  padding-top: 233px;
+}
+.galleryAnim.__hidden {
+  padding-bottom: 93px;
+}
+.restaurant-page__form {
+  height: 1045px;
+  gap: 0px;
+}
+.restaurant-page__title {
+  padding-top: 264px;
+  font-size: min(60px, 3.15vw);
+  line-height: min(66px, 3.48vw);
+}
+.section6__restoran {
+  padding-bottom: 280px;
+}
+.restaurant-page__imgOne {
+  width: 614px;
+  height: 800px;
+  position: relative;
+}
+.restaurant-page__imgOne > img {
+  width: 100%;
+  height: 100%;
+}
+.restaurant-page__swiper-slide-img img {
+  width: 296px !important;
+  height: 370px !important;
+}
+.restaurant-page__galleryAnim {
+  padding-bottom: 77px !important;
+}
+.restaurant-page__radio {
+  padding-top: 24px;
+}
+.restaurant-page__btn {
+  margin-top: 26px;
+}
+.restaurant-page__blockplace-img {
+  padding-top: 40px;
+}
+.section4-text__restoran > br {
+  display: none;
+}
+.letter-spacing-mob{
+  display: none;
+}
+
+@media (min-width: 1051px) {
+  .section4-text__restoran > br {
+    display: block;
+  }
+
+}
+@media (max-width: 1050px) {
+  .restaurant-page__imgOne {
+    width: 482px;
+    height: 606px;
+  }
+  .restaurant-page__imgOne > img {
+    width: 100%;
+    height: 100%;
+  }
+  .section2__restoran-pt {
+    padding-bottom: 244px !important;
+  }
+  .slider-section-line-l {
+    left: 16%;
+  }
+  .slider-section-line-r {
+    right: 16%;
+  }
+  .swiper-button-next-main {
+    right: 16% !important;
+  }
+  .swiper-button-prev-main {
+    left: 16% !important;
+  }
+  .slider-section {
+    padding-top: 240px !important;
+    padding-bottom: 241px !important;
+  }
+  /* .section4__restoran {
+    padding-bottom: 179px !important;
+  } */
+  .galleryAnim.__hidden {
+    padding-bottom: 106px;
+  }
+  .section6__restoran {
+    padding-bottom: 311px !important;
+  }
+  .section6-line2__restoran {
+    left: 37% !important;
+  }
+  .section7-container__restoran {
+    padding: 0 20px;
+    max-width: 690px !important;
+  }
+  .pt-res {
+    margin-top: 0px !important;
+  }
+  .restaurant-page__form {
+    height: 937px;
+  }
+  .restaurant-page__title {
+    padding-top: 264px;
+    font-size: 40px !important;
+    line-height: 48px !important;
+  }
+  .section6__restoran {
+    padding-bottom: 275px !important;
+  }
+}
+@media (max-width: 550px) {
+  .letter-spacing-mob{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .section1__restoran-laptop{
+  display: none !important;
+}
+}
+
+@media (max-width: 475px) {
+  .restaurant-page__imgOne {
+    width: 255px;
+    height: 330px;
+  }
+  .restaurant-page__caption > h1{
+    max-width: 100% !important;
+  }
+
+  .section2__restoran-pt {
+    padding-bottom: 67px !important;
+  }
+  .slider-section {
+    padding-top: 67px !important;
+    padding-bottom: 60px !important;
+  }
+  .slider-section-line-l {
+    left: 24%;
+  }
+  .slider-section-line-r {
+    right: 24%;
+  }
+  .swiper-button-next-main {
+    right: 24% !important;
+  }
+  .swiper-button-prev-main {
+    left: 24% !important;
+  }
+  .galleryAnim {
+    padding: 66px 0 62px 0 !important;
+  }
+  /* .section6__restoran {
+    padding-bottom: 191px !important;
+  } */
+  .restaurant-page__form {
+    height: 668px;
+    gap: 0;
+  }
+  .swiper-container{
+    height: auto !important;
+  }
+  .restaurant-page__inputs {
+    padding-bottom: 0 !important;
+    gap: 23px 15px !important;
+  }
+  .section5-container-block__restoran{
+    border-right: none !important;
+  }
+  .section5-container-block__restoran:nth-child(2n){
+    border-left: 1px solid #454545 !important;
+  }
+  div.restaurant-page__line1 {
+    left: 19% !important;
+  }
+  div.restaurant-page__line5 {
+    right: 19% !important;
+  }
+    .section6__restoran{
+    padding-bottom: 120px !important;
+  }
+  .galleryAnim {
+    padding: 180px 0 100px 0 !important;
+}
+.galleryAnim__title{
+  line-height: 16px;
+}
+}

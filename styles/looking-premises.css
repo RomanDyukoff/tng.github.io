@@ -1,0 +1,76 @@
+.looking-premises-page__block1 {
+  padding-top: 195px;
+}
+.looking-premises-page__block3-container {
+  padding-bottom: 15%;
+}
+.looking-premises-page__form {
+  height: 1481px !important;
+}
+.looking-premises-page__form-wrapper {
+  gap: 23px;
+  height: 1481px !important;
+  padding-top: 0;
+}
+.looking-premises-page__form-wrapper > p {
+  font-size: 60px;
+  line-height: 66px;
+  margin-bottom: 80px;
+}
+h1.secret-assistants-size {
+  margin: 0;
+}
+.looking-premises-page__block2-title-ls {
+  letter-spacing: -2px;
+}
+.looking-premises-page__main-imgSR {
+  padding: 0;
+}
+.looking-premises-page__imgSR {
+  width: 296px;
+  height: 390px;
+}
+.looking-premises-page__imgSz {
+  width: 100%;
+  height: 100%;
+}
+.looking-premises-page__block1-br br {
+  display: none;
+}
+.looking-premises-page__block2-title-ps {
+  font-weight: 400 !important;
+}
+.looking-premises-page__block4-gap1 {
+  gap: 8px;
+}
+.looking-premises-page__block4-gap2 {
+  gap: 60px;
+}
+.looking-premises-page__block4-gap3,
+.looking-premises-page__block4-gap4 {
+  gap: 12px;
+}
+.looking-premises-page__block4-gap5 {
+  gap: 38px;
+}
+
+@media (min-width: 500px) {
+  .looking-premises-page__block1-br br {
+    display: block;
+  }
+  .looking-premises-page__block2-title-ls > br {
+    display: none !important;
+  }
+}
+@media (max-width: 900px) {
+ .looking-premises-page__imgSR {
+    width: 128px !important;
+    height: 165px !important;
+  }
+}
+@media (max-width: 500px) {
+ 
+  .looking-premises-page__form-wrapper > p {
+    margin-bottom: 0;
+  }
+}

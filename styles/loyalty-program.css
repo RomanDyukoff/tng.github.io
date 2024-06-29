@@ -1,0 +1,164 @@
+.loyalty-program__page-caption {
+  padding-top: 200px;
+  padding-bottom: 260px !important;
+}
+.loyalty-program__page-h1 {
+  gap: 23px !important;
+}
+.loyalty-program__page-imgOne {
+  width: 639px;
+  height: 724px;
+}
+.loyalty-program__page-container-img > img,
+.loyalty-program__page-imgOne > img {
+  width: 100%;
+  height: 100%;
+}
+.loyalty-program__page-container-Mainimg {
+  padding: 0;
+}
+.loyalty-program__page-container {
+  padding: 0;
+  padding-top: 15%;
+  padding-bottom: 14.6%;
+  max-width: 1000px !important;
+}
+.section2-container__loyalty-program > p > br{
+  display: none;
+}
+.loyalty-program__page-container-img {
+  width: 296px;
+  height: 390px;
+}
+.loyalty-program__page-block3-title-cont > div:first-child {
+  padding-left: 20px !important;
+}
+.loyalty-program__page-block3-title-cont {
+  gap: 196px;
+}
+.loyalty-program__page-block3-title {
+  padding-bottom: 80px !important;
+}
+
+@media (min-width: 2250px) {
+  .section6-content__loyalty-program{
+    gap: 84px 5vw;
+  }
+}
+@media (min-width: 2550px) {
+  .section6-content__loyalty-program{
+    gap: 84px 4vw;
+  }
+}
+@media (max-width: 1050px) {
+  .loyalty-program__page-caption {
+    padding-top: 220px !important;
+    padding-bottom: 253px !important;
+  }
+  .loyalty-program__page-h1 > h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .loyalty-program__page-block3-title-cont > div:first-child {
+  padding-left:0  !important;
+}
+  .loyalty-program__page-h1 > div > img {
+    width: 100%;
+    height: 100%;
+  }
+  .loyalty-program__page-h1 > div {
+    width: 482px;
+    height: 606px;
+  }
+  .line-height-left {
+    left: 16%;
+  }
+  .section2__loyalty-program {
+    padding-bottom: 321px;
+  }
+  .loyalty-program__page-imgOne {
+    width: 501px !important;
+    height: 581px !important;
+  }
+  p.section3-content-p__loyalty-program {
+    font-size: 60px;
+    line-height: 66px;
+    max-width: 730px;
+  }
+  .section3-content__loyalty-program {
+    padding-bottom: 89px;
+  }
+  .loyalty-program__page-container {
+    padding: 218px 30px 239px 30px !important;
+  }
+  .loyalty-program__page-container-img {
+    width: 233px;
+    height: 300px;
+  }
+  .section5-container__loyalty-program img {
+    width: 49%;
+  }
+  .section5-container__loyalty-program p {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .section5__loyalty-program {
+    padding-top: 22%;
+  }
+  .loyalty__program-items {
+    padding: 34px 0;
+  }
+  .loyalty-program__page-panel {
+    padding-bottom: 0 !important;
+        border-bottom: none !important;
+  }
+}
+@media (max-width: 475px) {
+  .loyalty-program__page-h1 > div {
+    width: 241px !important;
+    height: 313px !important;
+  }
+  .section2-container__loyalty-program > p > br{
+  display: block;
+}
+  .loyalty-program__page-caption {
+    padding-top: 173px !important;
+    padding-bottom: 77px !important;
+  }
+  .line-height-left {
+    left: 25%;
+  }
+  .loyalty-program__page-imgOne {
+    width: 245px !important;
+    height: 292px !important;
+  }
+  p.section3-content-p__loyalty-program {
+    font-size: 32px !important;
+    line-height: 32px !important; /* 100% */
+    letter-spacing: 1px;
+    padding-top: 84px;
+  }
+  .section3-img__loyalty-program {
+    width: 133px !important;
+    margin-left: -63px !important;
+    margin-top: -53px !important;
+    transform: rotate(17deg) !important;
+  }
+  .loyalty-program__page-container-img {
+    width: 128px !important;
+    height: 165px !important;
+  }
+  .loyalty-program__page-container {
+    padding: 79px 30px 70px 30px !important;
+  }
+  .section5-container__loyalty-program img {
+    width: 220px !important;
+  }
+  .loyalty-program__page-panel {
+    padding-bottom: 35px !important;
+    padding-top: 64px;
+  }
+  .loyalty-program__page-caption-vp {
+    letter-spacing: -2px !important;
+  }
+}

@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <title>slider</title>
+    <link
+      href="https://db.onlinewebfonts.com/c/abf78524cb042ba43670abd33c4883d6?family=Panama+Regular"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index.1a3fe84b.js"></script>
+    <link rel="stylesheet" href="/assets/index.8ba8ea75.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="styles/modals.css" />
+    <link rel="stylesheet" type="text/css" href="styles/news.css" />
+    <link rel="stylesheet" type="text/css" href="styles/adaptive.css" />
+  </head>
+  <body>
+    <header class="header-news">
+      <div class="container">
+        <div class="header-container">
+          <div class="header-container-left">
+            <div class="header-container-logo">
+              <img src="/img/logo-desktop.svg" alt="" />
+            </div>
+            <div class="dropdown dropdown-header">
+              <div class="dropdown-dropbtn dci">
+                <button class="dropbtn"></button>
+              </div>
+              <div class="dropdown-content">
+                <a href="#" class="dropdown-content-icon">Россия</a>
+                <a href="#" class="dropdown-content-icon">Казахстан</a>
+                <a href="#">Бали</a>
+                <a href="#">Минск</a>
+                <a href="#">Ташкент</a>
+              </div>
+              <div class="dropdown-content dropdown-content-acive">
+                <a href="#" class="dropdown-content-icon-down">Россия</a>
+                <a href="#">Санкт-Петербург</a>
+                <a href="#">Москва</a>
+                <a href="#">Казань</a>
+                <a href="#">Краснодар</a>
+                <a href="#">Калининград</a>
+                <a href="#">Ростов-на-Дону</a>
+                <a href="#">Нижний Новгород</a>
+                <a href="#">Новосибирск</a>
+                <a href="#">Тюмень</a>
+                <a href="#">Томск</a>
+                <a href="#">Барнаул</a>
+                <a href="#">Екатеринбург</a>
+                <a href="#">Ставрополь</a>
+                <a href="#">Луганск</a>
+                <a href="#">Пенза</a>
+                <a href="#">Пятигорск</a>
+              </div>
+              <div class="dropdown-content dropdown-content-acive">
+                <a href="#" class="dropdown-content-icon-down">Казахстан</a>
+                <a href="#">Алматы</a>
+                <a href="#">Актау</a>
+                <a href="#">Астана</a>
+                <a href="#">Аксай</a>
+                <a href="#">Костанай</a>
+                <a href="#">Карагандай</a>
+                <a href="#">Уральск</a>
+                <a href="#">Усть-Каменогорск</a>
+                <a href="#">Шымкент</a>
+              </div>
+            </div>
+            <h1>Сеть лаунж-ресторанов</h1>
+          </div>
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <div class="menu__box">
+              <div class="burger__header-mob">
+                <div class="burger__dropbtn-mob">
+                  <span class="burger__dropbtn"></span>
+                  <button class="burger__dropbtn-btn">Изменить</button>
+                </div>
+                <div class="burger__search">
+                  <div class="zoom"></div>
+                  <input
+                    class="search__city"
+                    type="text"
+                    placeholder="Ваш город"
+                  />
+                  <div class="close"></div>
+                </div>
+              </div>
+              <ul class="burger__menu">
+                <li>
+                  <a href="/" class="burger-menu-active">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Главная
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Рестораны
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Франшиза
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Оформить бонусную карту
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Кейтеринг
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    О нас
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Контакты
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path
+                        d="M16 4L9.53674e-07 8L9.53674e-07 0L16 4Z"
+                        fill="#DFDFDF"
+                      />
+                    </svg>
+                    Доставка
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="8"
+                      viewBox="0 0 16 8"
+                      fill="none"
+                    >
+                      <path d="M0 4L16 8L16 0L0 4Z" fill="#DFDFDF" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+              <ul class="burger__menu-city burger__menu-city-active">
+                <li class="bmc">Россия</li>
+                <li class="bmc">Казахстан</li>
+                <li>Бали</li>
+                <li>Минск</li>
+                <li>Ташкент</li>
+              </ul>
+              <ul class="burger__menu-city burger__menu-city-active">
+                <li class="bmcd">Россия</li>
+                <li>Санкт-Петербург</li>
+                <li>Москва</li>
+                <li>Казань</li>
+                <li>Краснодар</li>
+                <li>Калининград</li>
+                <li>Ростов-на-Дону</li>
+                <li>Нижний Новгород</li>
+                <li>Новосибирск</li>
+                <li>Тюмень</li>
+                <li>Томск</li>
+                <li>Барнаул</li>
+                <li>Екатеринбург</li>
+                <li>Ставрополь</li>
+                <li>Луганск</li>
+                <li>Пенза</li>
+                <li>Пятигорск</li>
+              </ul>
+              <ul class="burger__menu-city burger__menu-city-active">
+                <li class="bmcd">Казахстан</li>
+                <li>Алматы</li>
+                <li>Актау</li>
+                <li>Астана</li>
+                <li>Аксай</li>
+                <li>Костанай</li>
+                <li>Карагандай</li>
+                <li>Уральск</li>
+                <li>Усть-Каменогорск</li>
+                <li>Шымкент</li>
+              </ul>
+              <ul
+                class="burger__menu-city burger__menu-city-active maping-list"
+              ></ul>
+              <div class="burger__footer">
+                <button class="burger__footer-btn">Забронировать</button>
+                <div class="burger__footer-lang">
+                  <span>RU</span>
+                  <span>EN</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-container-right">
+            <a href="#!">EN</a>
+            <a href="#!">Доставка</a>
+            <a href="#!" class="header-container-right-btn">
+              Забронировать
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="8"
+                viewBox="0 0 10 8"
+                fill="none"
+              >
+                <path
+                  d="M9.53674e-07 -4.37114e-07L10 4L6.03983e-07 8L9.53674e-07 -4.37114e-07Z"
+                  fill="#DFDFDF"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container-rubber">
+      <section class="section1__news">
+        <div class="section1-line-l__news"></div>
+        <div class="section1-line-r__news"></div>
+        <div class="container">
+          <div class="section1-title__news">Новости</div>
+          <div class="section1-container__news">
+            <div
+              class="section1-container-block__news"
+              onclick="handleIsOpen(0)"
+            >
+              <span>11 декабря 2020</span>
+              <img src="/img/gal31.png" alt="" />
+              <h3>Открытие Tangiers Lounge Aktau</h3>
+              <p>
+                Дамы и господа, торжественно объявляем — техническое открытие
+                Tangiers Lounge Aktau состоялось!
+              </p>
+            </div>
+            <div
+              class="section1-container-block__news"
+              onclick="handleIsOpen(1)"
+            >
+              <span>21 января 2021</span>
+              <img src="/img/gal30.png" alt="" />
+              <h3>Открытие Tangiers Lounge Yakimanka</h3>
+              <p>
+                Особняк Мистера Т. в самом сердце столицы Tangiers Lounge
+                Yakimanka открыл свои двери. Ждём вас ежедневно с 12:00!
+              </p>
+            </div>
+            <div
+              class="section1-container-block__news"
+              onclick="handleIsOpen(2)"
+            >
+              <span>11 декабря 2020</span>
+              <img src="/img/gal32.png" alt="" />
+              <h3>Открытие Tangiers Lounge KLD</h3>
+              <p>
+                Создавая музыкальное произведение, мелодии переписывают много
+                раз.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="news__modal news__hidden">
+        <div class="news__wrapper">
+          <div class="news__backdrop" onclick="handleIsClose()"></div>
+          <div class="news__container">
+            <div class="news__header">
+              <div class="news__actions">
+                <div class="news__action-navigate">
+                  <button
+                    aria-label="Mute volume"
+                    type="button"
+                    class="action isPrev"
+                    onclick="handleIsPrev()"
+                  ></button>
+                  <button
+                    aria-label="Mute volume"
+                    type="button"
+                    class="action isNext"
+                    onclick="handleIsNext()"
+                  ></button>
+                </div>
+
+                <button
+                  aria-label="Mute volume"
+                  type="button"
+                  class="action"
+                  onclick="handleIsClose()"
+                ></button>
+              </div>
+            </div>
+            <div class="news_list-content">
+              <div class="news__content">
+                <div class="news__caption">
+                  <span>11 декабря</span>
+                  <h2>Открытие Tangiers Lounge  KLD</h2>
+                </div>
+                <div class="news__content-page">
+                  <div class="news__container-img">
+                    <div class="title title-cl">
+                      Новый дом Мистера Т. готов принимать гостей
+                    </div>
+                    <div class="img">
+                      <img src="./img/news__hool.png" alt="news-page" />
+                    </div>
+                  </div>
+                  <div class="news__description">
+                    <h2 class="caption__top">
+                      Многие великие музыканты, создавая произведение, одну и ту
+                      же мелодию переписывали несколько раз: каждый раз убирая,
+                      изменяя некоторые части произведения, или же добавляя в
+                      него что-то новое, особенное.
+                    </h2>
+                    <span class="title__bottom">
+                      И подобно музыкальным гениям, Мистер Т. решил добавить в
+                      своё произведение нечто новое. Открыть Особняк Tangiers
+                      Lounge в Калининграде, при этом объединив классику
+                      с новаторством.
+                    </span>
+                  </div>
+                  <div class="news__container-img">
+                    <div class="img">
+                      <img src="./img/news__shef.png" alt="news-page" />
+                    </div>
+                    <div class="title">
+                      Всеми известный шеф-повар Дмитрий Бакиев
+                    </div>
+                  </div>
+                  <div class="news__description">
+                    <span class="title__bottom">
+                      Но кто бы мог искусно управлять новым Особняком,  при этом
+                      руководствуясь Петербургскими традициями?
+                    </span>
+                    <span class="title__bottom">
+                      В Калининграде у Мистера Т. были проверенные временем и
+                      обстоятельствами джентльмены: Евгений Дубченко и Александр
+                      Синалицкий, а также известный не только в Калининграде, но
+                      и Сочи шеф-повар Дмитрий Бакиев.
+                    </span>
+                  </div>
+                  <div class="news__container-img">
+                    <div class="img">
+                      <img src="./img/news__shef.png" alt="news-page" />
+                    </div>
+                    <div class="title title-gl">
+                      Персонал Tangiers Lounge можно узнать по классической
+                      черной форме  и английским котелкам
+                    </div>
+                  </div>
+                  <div class="news__caption-footer">
+                    <span>+7 (916) 682-90-00</span>
+                    <span>г. Москва, Кадашевская наб., д. 6/1/2, стр. 1</span>
+                  </div>
+                </div>
+              </div>
+              <div class="news__content news__hidden">
+                <div class="news__caption">
+                  <span>12 декабря</span>
+                  <h2>Открытие Tangiers Lounge  KLD #1</h2>
+                </div>
+                <div class="news__content-page">
+                  <div class="news__container-img">
+                    <div class="title title-cl">
+                      Новый дом Мистера Т. готов принимать гостей
+                    </div>
+                    <div class="img">
+                      <img src="./img/news__hool.png" alt="news-page" />
+                    </div>
+                  </div>
+                  <div class="news__description">
+                    <h2 class="caption__top">
+                      Многие великие музыканты, создавая произведение, одну и ту
+                      же мелодию переписывали несколько раз: каждый раз убирая,
+                      изменяя некоторые части произведения, или же добавляя в
+                      него что-то новое, особенное.
+                    </h2>
+                    <span class="title__bottom">
+                      И подобно музыкальным гениям, Мистер Т. решил добавить в
+                      своё произведение нечто новое. Открыть Особняк Tangiers
+                      Lounge в Калининграде, при этом объединив классику
+                      с новаторством.
+                    </span>
+                  </div>
+                  <div class="news__container-img">
+                    <div class="img">
+                      <img src="./img/news__shef.png" alt="news-page" />
+                    </div>
+                    <div class="title">
+                      Всеми известный шеф-повар Дмитрий Бакиев
+                    </div>
+                  </div>
+                  <div class="news__description">
+                    <span class="title__bottom">
+                      Но кто бы мог искусно управлять новым Особняком,  при этом
+                      руководствуясь Петербургскими традициями?
+                    </span>
+                    <span class="title__bottom">
+                      В Калининграде у Мистера Т. были проверенные временем и
+                      обстоятельствами джентльмены: Евгений Дубченко и Александр
+                      Синалицкий, а также известный не только в Калининграде, но
+                      и Сочи шеф-повар Дмитрий Бакиев.
+                    </span>
+                  </div>
+                  <div class="news__container-img">
+                    <div class="img">
+                      <img src="./img/news__shef.png" alt="news-page" />
+                    </div>
+                    <div class="title title-gl">
+                      Персонал Tangiers Lounge можно узнать по классической
+                      черной форме  и английским котелкам
+                    </div>
+                  </div>
+                  <div class="news__caption-footer">
+                    <span>+7 (916) 682-90-00</span>
+                    <span>г. Москва, Кадашевская наб., д. 6/1/2, стр. 1</span>
+                  </div>
+                </div>
+              </div>
+              <div class="news__content news__hidden">
+                <div class="news__caption">
+                  <span>13 декабря</span>
+                  <h2>Открытие Tangiers Lounge  KLD #2</h2>
+                </div>
+                <div class="news__content-page">
+                  <div class="news__container-img">
+                    <div class="title title-cl">
+                      Новый дом Мистера Т. готов принимать гостей
+                    </div>
+                    <div class="img">
+                      <img src="./img/news__hool.png" alt="news-page" />
+                    </div>
+                  </div>
+                  <div class="news__description">
+                    <h2 class="caption__top">
+                      Многие великие музыканты, создавая произведение, одну и ту
+                      же мелодию переписывали несколько раз: каждый раз убирая,
+                      изменяя некоторые части произведения, или же добавляя в
+                      него что-то новое, особенное.
+                    </h2>
+                    <span class="title__bottom">
+                      И подобно музыкальным гениям, Мистер Т. решил добавить в
+                      своё произведение нечто новое. Открыть Особняк Tangiers
+                      Lounge в Калининграде, при этом объединив классику
+                      с новаторством.
+                    </span>
+                  </div>
+                  <div class="news__container-img">
+                    <div class="img">
+                      <img src="./img/news__shef.png" alt="news-page" />
+                    </div>
+                    <div class="title">
+                      Всеми известный шеф-повар Дмитрий Бакиев
+                    </div>
+                  </div>
+                  <div class="news__description">
+                    <span class="title__bottom">
+                      Но кто бы мог искусно управлять новым Особняком,  при этом
+                      руководствуясь Петербургскими традициями?
+                    </span>
+                    <span class="title__bottom">
+                      В Калининграде у Мистера Т. были проверенные временем и
+                      обстоятельствами джентльмены: Евгений Дубченко и Александр
+                      Синалицкий, а также известный не только в Калининграде, но
+                      и Сочи шеф-повар Дмитрий Бакиев.
+                    </span>
+                  </div>
+                  <div class="news__container-img">
+                    <div class="img">
+                      <img src="./img/news__shef.png" alt="news-page" />
+                    </div>
+                    <div class="title title-gl">
+                      Персонал Tangiers Lounge можно узнать по классической
+                      черной форме  и английским котелкам
+                    </div>
+                  </div>
+                  <div class="news__caption-footer">
+                    <span>+7 (916) 682-90-00</span>
+                    <span>г. Москва, Кадашевская наб., д. 6/1/2, стр. 1</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-container-left">
+            <div class="footer-container-left-colum">
+              <a href="/">Рестораны</a>
+              <a href="/">Доставка</a>
+              <a href="/">Франшиза</a>
+              <a href="/">Кейтеринг</a>
+              <a href="/">О нас</a>
+              <a href="/">Контакты</a>
+            </div>
+            <div class="footer-container-left-colum">
+              <a href="/">Новости</a>
+              <a href="/">Карьера</a>
+              <a href="/">Стать тайным гостем</a>
+              <a href="/">Ищем помещение</a>
+              <a href="/">Сертификат</a>
+            </div>
+          </div>
+          <div class="footer-container-right">
+            <a href="/" class="btn-footer-rev">Оставить отзыв</a>
+            <a href="/" class="btn-footer-program-loyal"
+              >программа лояльности</a
+            >
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            <a href="/">Подписаться на рассылку</a>
+            <a href="/">Политика конфиденциальности</a>
+          </div>
+          <div class="footer-bottom-social">
+            <a href="/" class="footer-bottom-social-ellipse"> FB </a>
+            <a href="/" class="footer-bottom-social-ellipse"> IN </a>
+            <a href="/" class="footer-bottom-social-ellipse"> FB </a>
+          </div>
+          <div class="footer-bottom-right ds-none">
+            <p>© 2022 Tangiers Lounge</p>
+            <p>ART HOOKAH FAMILY</p>
+          </div>
+        </div>
+        <div class="footer-mb">
+          <p>© 2022 Tangiers Lounge</p>
+          <p>ART HOOKAH FAMILY</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const modal = document.querySelector(".news__modal");
+      const isNext = document.querySelector(".isNext");
+      const isPrev = document.querySelector(".isPrev");
+      const listBlock = [
+        ...document.querySelector(".news_list-content").children,
+      ];
+
+      let count = 0;
+
+      const handleIsClose = () => {
+        modal.classList.add("news__hidden");
+        document.body.style.overflow = "auto";
+        count = 0;
+        isRender();
+      };
+      const handleIsOpen = (cur) => {
+        modal.classList.toggle("news__hidden");
+        document.body.style.overflow = "hidden";
+        count = cur;
+        isRender();
+      };
+
+      const handleIsNext = () => {
+        count >= listBlock.length - 1 ? count : ++count;
+        isRender();
+      };
+      const handleIsPrev = () => {
+        count > 0 ? --count : count;
+        isRender();
+      };
+      function isRender() {
+        listBlock.forEach((el, i) =>
+          i === count
+            ? el.classList.remove("news__hidden")
+            : el.classList.add("news__hidden")
+        );
+        count === listBlock.length - 1
+          ? (isNext.disabled = true)
+          : (isNext.disabled = false);
+        count === 0 ? (isPrev.disabled = true) : (isPrev.disabled = false);
+      }
+    </script>
+
+    <script>
+      const btnREnt = document.querySelectorAll(
+        ".section5-top-btn__rent-hookahs"
+      );
+      const tabRent = document.querySelectorAll(
+        ".section5-content__rent-hookahs"
+      );
+
+      btnREnt.forEach(function (item) {
+        item.addEventListener("click", function () {
+          btnREnt.forEach(function (i) {
+            i.classList.remove("section5-top-btn__rent-hookahs-active");
+          });
+
+          item.classList.add("section5-top-btn__rent-hookahs-active");
+
+          let tubIDRent = item.getAttribute("data-tabRent");
+          let tabActiveRent = document.querySelector(tubIDRent);
+
+          tabRent.forEach(function (item) {
+            item.classList.remove("section5-content__rent-hookahs-active");
+          });
+          tabActiveRent.classList.add("section5-content__rent-hookahs-active");
+        });
+      });
+    </script>
+      <div class="modal-header-book">
+      <div class="modal-header-book-content">
+        <div class="modal-header-book-content-part">
+          <div class="modal-header-book-content-top">
+            <p>Забронировать стол</p>
+            <img
+              src="/img/Close.png"
+              alt=""
+              class="modal-header-book-close"
+            />
+          </div>
+          <div class="modal-header-book-content-middle">
+            <input type="text" placeholder="Имя" />
+            <div class="modal-header-book-content-middle-select">
+              <select>
+                <option disabled selected>Ресторан</option>
+                <option>Ресторан</option>
+              </select>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="10"
+                viewBox="0 0 8 10"
+                fill="none"
+              >
+                <path
+                  d="M8 9.53674e-07L4 10L8.74228e-07 2.54292e-07L8 9.53674e-07Z"
+                  fill="#DFDFDF"
+                />
+              </svg>
+            </div>
+            <input
+               type="text"
+                id="zipCode" onkeyup="mask('zipCode', '+7(000)000-00-00', event);"
+                placeholder="Телефон"
+              class="modal-header-book-content-middle-short tel middle-mob"
+            />
+            <input
+              type="number"
+              placeholder="Количество человек"
+              class="modal-header-book-content-middle-short middle-mob"
+            />
+            <div class="date-input middle-mob">
+
+              <input
+              type="date"
+              placeholder="Дата"
+              class="modal-header-book-content-middle-short middle-mob"
+            />
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="10"
+                viewBox="0 0 8 10"
+                fill="none"
+              >
+                <path
+                  d="M8 9.53674e-07L4 10L8.74228e-07 2.54292e-07L8 9.53674e-07Z"
+                  fill="#DFDFDF"
+                />
+              </svg>
+            </div>
+            
+            <input
+              type="text"
+              placeholder="Время"
+              onfocus="this.type='time'"
+              onblur="this.type='text'"
+              class="modal-header-book-content-middle-short middle-mob"
+            />
+            <div class="radio">
+              <input
+                class="custom-radio"
+                type="radio"
+                id="color-1"
+                name="color"
+                value="indigo"
+              />
+              <label for="color-1"
+                >Даю согласие на обработку персональных данных</label
+              >
+            </div>
+          </div>
+        </div>
+        <button class="modal-header-book-btn">Отправить</button>
+      </div>
+    </div>
+    <section class="univers__modal univers__hidden">
+      <div class="univers__wrapper">
+        <div class="univers__backdrop"></div>
+        <div class="univers__container age-us-container">
+          <div class="age-container">
+            <h2 class="age-title">вам уже исполнилось 18 лет?</h2>
+            <span class="age-desc"
+              >Посещение сайта возможно только при достижении совершеннолетнего
+              возраста.
+            </span>
+            <div class="age-btn">
+              <button onclick="handleOK()">Да</button>
+              <button onclick="handleNot()">Нет</button>
+            </div>
+          </div>
+          <div class="age-container age-Not isNot">
+            <span class="age-desc"
+              >Мистер Т. откроет двери своего Особняка как только ты будешь
+              готов к этому, дорогой друг!
+            </span>
+            <span class="age-desc age-fw"
+              >Увидимся после твоего совершеннолетия.
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="univers__modal cookies__hidden">
+      <div class="univers__wrapper">
+        <div class="univers__backdrop cookies-bg"></div>
+        <div class="univers__container cookies-mw">
+          <div class="cookies-container">
+            <div class="cookies-title">
+              <h3>Мы используем файлы cookies</h3>
+              <span
+                >Оставаясь на сайте, вы соглашаетесь c<a  href="#">
+                  условиями использования cookies.</a
+                ></span
+              >
+            </div>
+            <div class="age-btn cookies-btn">
+              <button onclick="handleOK()" class="btn-hidden">ОК</button>
+              <div onclick="handleOK()" class="btn-hidden-mob">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g filter="url(#filter0_b_2387_14338)">
+                    <rect
+                      x="1"
+                      y="1"
+                      width="22"
+                      height="22"
+                      rx="11"
+                      fill="#C4C4C4"
+                      fill-opacity="0.01"
+                    />
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width="23"
+                      height="23"
+                      rx="11.5"
+                      stroke="#454545"
+                    />
+                  </g>
+                  <path d="M15.082 8.92004L8.92208 15.08" stroke="#DFDFDF" />
+                  <path d="M15.082 15.0801L8.92208 8.92013" stroke="#DFDFDF" />
+                  <defs>
+                    <filter
+                      id="filter0_b_2387_14338"
+                      x="-84"
+                      y="-84"
+                      width="192"
+                      height="192"
+                      filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB"
+                    >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feGaussianBlur
+                        in="BackgroundImageFix"
+                        stdDeviation="42"
+                      />
+                      <feComposite
+                        in2="SourceAlpha"
+                        operator="in"
+                        result="effect1_backgroundBlur_2387_14338"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in="SourceGraphic"
+                        in2="effect1_backgroundBlur_2387_14338"
+                        result="shape"
+                      />
+                    </filter>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="univers__modal cookies__hidden">
+      <div class="univers__wrapper">
+        <div class="univers__backdrop cookies-bg"></div>
+        <div class="univers__container cookies-mw__EN">
+          <div class="cookies-container cookies__EN">
+            <div class="cookies-title cookies-title__EN">
+              <p>
+                We use essential cookies to make our site work. With your
+                consent, we may also use non-essential cookies to improve user
+                experience and analyze website traffic. By clicking “Accept,”
+                you agree to our website's cookie use as described in our
+                <u>Cookie Policy</u>. You can change your cookie settings at any
+                time by clicking <u>“Preferences.”</u>
+              </p>
+            </div>
+            <div class="age-btn cookies-btn cookies-btn__EN">
+              <button onclick="handleMoreEn()">Preferences</button>
+              <button class="btn__en-bg" onclick="handleOK()">decline</button>
+              <button class="btn__en-bg" onclick="handleOK()">accept</button>
+            </div>
+          </div>
+          <div class="cookies-container cookies__EN cookies-preferences">
+            <div
+              class="cookies-title cookies-title__EN cookies-preferences-title"
+            >
+              <div class="cookies-caption__EN">
+                <h3>preferences</h3>
+                <div onclick="handleOK()">
+                  <svg
+                    width="42"
+                    height="42"
+                    viewBox="0 0 42 42"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g filter="url(#filter0_b_2387_13981)">
+                      <rect
+                        x="1"
+                        y="1"
+                        width="40"
+                        height="40"
+                        rx="20"
+                        fill="#C4C4C4"
+                        fill-opacity="0.01"
+                      />
+                      <rect
+                        x="0.5"
+                        y="0.5"
+                        width="41"
+                        height="41"
+                        rx="20.5"
+                        stroke="#454545"
+                      />
+                    </g>
+                    <path
+                      d="M26.5977 15.3999L15.3977 26.5998"
+                      stroke="#DFDFDF"
+                    />
+                    <path
+                      d="M26.5977 26.5999L15.3977 15.3999"
+                      stroke="#DFDFDF"
+                    />
+                    <defs>
+                      <filter
+                        id="filter0_b_2387_13981"
+                        x="-84"
+                        y="-84"
+                        width="210"
+                        height="210"
+                        filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB"
+                      >
+                        <feFlood
+                          flood-opacity="0"
+                          result="BackgroundImageFix"
+                        />
+                        <feGaussianBlur
+                          in="BackgroundImageFix"
+                          stdDeviation="42"
+                        />
+                        <feComposite
+                          in2="SourceAlpha"
+                          operator="in"
+                          result="effect1_backgroundBlur_2387_13981"
+                        />
+                        <feBlend
+                          mode="normal"
+                          in="SourceGraphic"
+                          in2="effect1_backgroundBlur_2387_13981"
+                          result="shape"
+                        />
+                      </filter>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+
+              <p>
+                We use essential cookies to make our site work. With your
+                consent, we may also use non-essential cookies to improve user
+                experience and analyze website traffic. By clicking “Accept,”
+                you agree to our website's cookie use as described in our
+                <u>Cookie Policy</u>. You can change your cookie settings at any
+                time by clicking <u>“Preferences.”</u>
+              </p>
+            </div>
+            <div class="cookies-content__EN">
+              <div class="cookies-item">
+                <div class="radio cookies-radio">
+                  <input
+                    class="custom-radio"
+                    type="checkbox"
+                    id="color-2"
+                    name="cookies"
+                    value="indigo"
+                    checked
+                  />
+                  <label for="color-2"></label>
+                </div>
+                <div class="item-EN">
+                  <span class="item-EN__color">Essential Cookies (14) <u>Details</u></span>
+                  <span
+                    >These cookies are necessary to the core functionality of
+                    our website and some of its features, such as access to
+                    secure areas.</span
+                  >
+                </div>
+              </div>
+              <div class="cookies-item">
+                <div class="radio cookies-radio">
+                  <input
+                    class="custom-radio"
+                    type="checkbox"
+                    id="color-3"
+                    name="cookies"
+                    value="indigo"
+                  />
+                  <label for="color-3"></label>
+                </div>
+                <div class="item-EN">
+                  <span
+                  class="item-EN__color"
+                    >Performance and Functionality Cookies (11)
+                    <u>Details</u></span
+                  >
+                  <span
+                    >These cookies are used to enhance the performance and
+                    functionality of our websites but are nonessential to their
+                    use. However, without these cookies, certain functionality
+                    (like videos) may become unavailable.</span
+                  >
+                </div>
+              </div>
+              <div class="cookies-item">
+                <div class="radio cookies-radio">
+                  <input
+                    class="custom-radio"
+                    type="checkbox"
+                    id="color-13"
+                    name="cookies"
+                    value="indigo"
+                  />
+                  <label for="color-13"></label>
+                </div>
+                <div class="item-EN">
+                  <span
+                  class="item-EN__color"
+                    >Analytics and Customization Cookies (18)
+                    <u>Details</u></span
+                  >
+                  <span
+                    >These cookies collect information that can help us
+                    understand how our websites are being used. This information
+                    can also be used to measure effectiveness in our marketing
+                    campaigns or to curate a personalized site experience for
+                    you.</span
+                  >
+                </div>
+              </div>
+              <div class="cookies-item">
+                <div class="radio cookies-radio">
+                  <input
+                    class="custom-radio"
+                    type="checkbox"
+                    id="color-14"
+                    name="cookies"
+                    value="indigo"
+                  />
+                  <label for="color-14"></label>
+                </div>
+                <div class="item-EN">
+                  <span class="item-EN__color">Advertising Cookies (15) <u>Details</u></span>
+                  <span
+                    >These cookies are used to make advertising messages more
+                    relevant to you. They prevent the same ad from continuously
+                    reappearing, ensure that ads are properly displayed for
+                    advertisers, and in some cases select advertisements that
+                    are based on your interests.</span
+                  >
+                </div>
+              </div>
+              <div class="cookies-item">
+                <div class="radio cookies-radio">
+                  <input
+                    class="custom-radio"
+                    type="checkbox"
+                    id="color-15"
+                    name="cookies"
+                    value="indigo"
+                  />
+                  <label for="color-15"></label>
+                </div>
+                <div class="item-EN">
+                  <span class="item-EN__color">Social networking Cookies (15) <u>Details</u></span>
+                  <span
+                    >These cookies enable you to share our website's content
+                    through third-party social networks and other websites.
+                    These cookies may also be used for advertising
+                    purposes.</span
+                  >
+                </div>
+              </div>
+              <div class="cookies-item">
+                <div class="radio cookies-radio">
+                  <input
+                    class="custom-radio"
+                    type="checkbox"
+                    id="color-17"
+                    name="cookies"
+                    value="indigo"
+                  />
+                  <label for="color-17"></label>
+                </div>
+                <div class="item-EN">
+                  <span class="item-EN__color">Unclassified Cookies (15) <u>Details</u></span>
+                  <span
+                    >These are cookies that have not yet been categorized. We
+                    are in the process of classifying these cookies with the
+                    help of their providers.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="age-btn cookies-btn cookies-btn__EN cookies-preferences-btn"
+            >
+              <button class="btn__en-bg" onclick="handleOK()">decline</button>
+              <button class="btn__en-bg" onclick="handleOK()">accept</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script></script>
+    <script src="/js/header.js"></script>
+    <script src="/js/mapModal.js"></script>
+    <script src="/js/modals.js"></script>
+  </body>
+</html>

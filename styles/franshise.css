@@ -1,0 +1,228 @@
+.franchise-page-slide {
+  display: flex;
+  align-items: center;
+  height: 1000px;
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border-right: 1px solid #454545;
+  border-left: 1px solid #454545;
+  padding-top: 45px;
+}
+.franchise-page__container-title {
+  gap: 11px;
+}
+.franchise-page__container-title > div {
+  padding-top: 17px;
+}
+.looking-premises-p > p {
+  font-weight: 400 !important;
+  font-family: "FuturaPT", sans-serif;
+}
+.looking-premises-p > p,
+h3 {
+  font-weight: 450;
+}
+.franchise-page-caption > h1 {
+  font-size: 40px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+.franchise-page__ca {
+  padding-bottom: 255px;
+}
+.franchise-page-container__blockImg {
+  padding-top: 109px;
+}
+.franchise-page-form {
+  padding-top: 26px;
+}
+.franchise-page-caption_fs {
+  margin-bottom: 107px;
+}
+.franchise-page__container-img-f {
+  padding: 20px 20px 16px 20px !important;
+}
+.franchise-page__container-list:first-child {
+  margin-bottom: 23px;
+}
+.franchise-page__container-list > div > p {
+  padding-left: 25px;
+}
+.franchise-page__container-img-btn {
+  font-size: 12px !important;
+  line-height: 14px !important;
+  width: 171px !important;
+  height: 32px !important;
+}
+.franchise-page__desc > p {
+  font-size: min(60px, 3.12vw) !important;
+  line-height: min(60px, 3.12vw);
+}
+.franchise-page__video {
+  height: 62rem;
+}
+.franchise-page__block-open {
+  padding: 286px 0 281px 0 !important;
+}
+.franchise-page__img {
+  width: 296px;
+  height: 385px;
+}
+.franchise-page__img > img {
+  width: 100%;
+  height: 100%;
+}
+.franchise-page__container-img {
+  padding: 0 150px !important;
+}
+.franchise-page-container {
+  height: 1023px;
+  gap: 18px;
+}
+.franchise-page-caption__p > p {
+  font-size: 60px;
+  line-height: 60px;
+}
+.franchise-page-pl {
+  padding-left: 20px;
+}
+.franchise__caption-main {
+  padding-top: 40px !important;
+}
+.franchise-page-caption__block1 {
+  padding-bottom: 57px;
+}
+.franchise-page__blocklast-br p br {
+  display: none;
+}
+.letter-spacing-mob{
+  display: none;
+}
+.block-wrapper-one{
+  border-top: 1px solid #454545 !important;
+}
+.franchise-page__container-list > div:last-child{
+  border-bottom: none;
+}
+@media (min-width: 1150px) {
+  .franchise-page__blocklast-br p br {
+    display: block;
+  }
+}
+
+@media (max-width: 1355px) {
+  .section2-container__franchise > img {
+    top: -56%;
+  }
+}
+@media (max-width: 1151px) {
+  .franchise-page-slider {
+    display: none;
+  }
+  .section2-container__franchise > img {
+    top: -46% !important;
+  }
+}
+@media (max-width: 1150px) {
+  .franchise-page-slider__mob {
+    display: flex;
+  }
+  .franchise-page-swiper__mob {
+    max-width: 690px;
+    width: 100%;
+    border-left: 1px solid #454545;
+    border-right: 1px solid #454545;
+  }
+  .franchise-page-swiper-title__mob {
+    position: absolute;
+    padding: 20px;
+  }
+  p.franchise-page-swiper-desc__mob {
+    max-width: 630px;
+    width: 100%;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .franchise-page-swiper-block__mob {
+    padding: 250px 0;
+  }
+  .franchise-page-swiper-btn__mob {
+    width: 32px;
+  }
+  .franchise-page__img {
+    width: 296px !important;
+  }
+  .franchise-page-caption__blocl1024 {
+    flex-direction: row !important;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .section1__franchise {
+    padding-bottom: 67px !important;
+  }
+  .section3-container-block__franchise {
+    width: 255px !important;
+    height: 165px !important;
+}
+.franchise-page-container__blockImg {
+    padding-top: 0;
+}
+.franchise-page__container-list > div > p{
+  padding-left: 0;
+}
+}
+@media (max-width: 550px) {
+  .letter-spacing-mob{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section1__restoran-laptop{
+  display: none !important;
+}
+.section4-title__franchise{
+  opacity: 1 !important;
+}
+.franchise__wrapper{
+  border-top: none;
+}
+div.franchise-page-form{
+  padding: 70px  0px 76px 0px !important
+}
+.franchise-page__container-img-f{
+  padding: 8px 15px 15px 15px !important;
+}
+}
+@media (max-width: 475px) {
+  .section-map-bottom__franchise{
+    width: 160px;
+  }
+  .franchise-page-swiper__mob {
+    max-width: 375px;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+  }
+  .franchise-page-swiper-block__mob {
+    padding: 75px 0;
+    padding-bottom: 0 !important;
+  }
+  p.franchise-page-swiper-desc__mob {
+    max-width: 345px;
+    width: 100%;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .section6-container-block-part__franchise {
+    flex-direction: column !important;
+  }
+  .mob-slide-mr{
+    margin-bottom: 50px;
+  }
+}

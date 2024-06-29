@@ -1,0 +1,104 @@
+.bankets-page__wrapper {
+  padding-top: 200px !important;
+  padding-bottom: 13% !important;
+}
+.bankets__h1 > h1 {
+  max-width: 930px;
+  margin: 0;
+}
+.bankets__h1 {
+  gap: 23px;
+}
+
+.bankets-page__img-main {
+  padding: 0 150px;
+}
+.bankets-page__caption {
+  display: none;
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  font-family: "FuturaPTM", sans-serif;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.bankets-page__hover > span {
+
+font-family: "FuturaPT", sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.01em;
+text-align: center;
+
+}
+.bankets-page__imgResize {
+  padding: 280px 20px 276px 20px;
+}
+@media (min-width: 1151px) {
+  .bankets-page__hover {
+    position: relative;
+  }
+  .bankets-page__hover:hover > img {
+    opacity: 0;
+    transition: 0.3s;
+  }
+  .section3-container-block__bankets:hover > p {
+    position: absolute;
+    left: 52%;
+    top: 37%;
+    transform: translate(-50%, 0);
+  }
+  .section4__banketss {
+    letter-spacing: -2px !important;
+  }
+  .section3-container-block__bankets:hover > span {
+    position: absolute;
+    display: block;
+    font-family: "FuturaPT", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    max-width: 516px;
+    top: 46%;
+    opacity: 1;
+    transition: 0.3s;
+  }
+}
+ .section4__banketsss{
+    display: none;
+  }
+  @media (max-width: 800px) {
+    .bankets__item{
+      border-bottom: none !important;
+    }
+  }
+@media (max-width: 500px) {
+   .section4__banketss{
+    display: none;
+  }
+  .section4__banketsss{
+    display: block;
+  }
+
+}
+@media (max-width: 475px) {
+  .section3-container__bankets{
+    border-top: none;
+  }
+  .section3-container-block__bankets{
+    padding: 37px 0 !important;
+  }
+  .section3-container-block__bankets:nth-child(4){
+    border-bottom: none !important;
+  }
+  .section5-container__bankets-second{
+    gap: 10px !important;
+  }
+}
