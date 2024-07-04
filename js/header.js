@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ...document.querySelector(".burger__footer-lang").children,
   ];
 
-  chooseCityMob.innerHTML = chooseCity.innerHTML = "Выбрать город";
+  chooseCityMob.innerHTML = chooseCity.innerHTML = "Select City";
   chooseCityMob.parentNode.parentNode.style.background = "#dfdfdf";
   searchCityMob.parentNode.style.display = "none";
 
@@ -62,18 +62,18 @@ document.addEventListener("DOMContentLoaded", () => {
   [...listContCity[0].children].forEach((el, i) =>
     el.addEventListener("click", () => {
       if (
-        [...listContCity[0].children][i].textContent !== "Россия" &&
-        [...listContCity[0].children][i].textContent !== "Казахстан"
+        [...listContCity[0].children][i].textContent !== "Russia" &&
+        [...listContCity[0].children][i].textContent !== "Kazakhstan"
       ) {
         chooseCityMob.innerHTML = chooseCity.innerHTML = [
           ...listContCity[0].children,
         ][i].textContent;
       }
-      if ([...listContCity[0].children][i].textContent === "Россия") {
+      if ([...listContCity[0].children][i].textContent === "Russia") {
         listContCity[1].classList.toggle("dropdown-content-acive");
         listContCity[0].classList.toggle("dropdown-content-acive");
       }
-      if ([...listContCity[0].children][i].textContent === "Казахстан") {
+      if ([...listContCity[0].children][i].textContent === "Kazakhstan") {
         listContCity[2].classList.toggle("dropdown-content-acive");
         listContCity[0].classList.toggle("dropdown-content-acive");
       }
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   [...listContCity[1].children].forEach((el, i) =>
     el.addEventListener("click", () => {
-      if ([...listContCity[1].children][i].textContent !== "Россия") {
+      if ([...listContCity[1].children][i].textContent !== "Russia") {
         chooseCityMob.innerHTML = chooseCity.innerHTML = [
           ...listContCity[1].children,
         ][i].textContent;
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   [...listContCity[2].children].forEach((el, i) =>
     el.addEventListener("click", () => {
-      if ([...listContCity[2].children][i].textContent !== "Казахстан") {
+      if ([...listContCity[2].children][i].textContent !== "Kazakhstan") {
         chooseCityMob.innerHTML = chooseCity.innerHTML = [
           ...listContCity[2].children,
         ][i].textContent;
@@ -123,8 +123,8 @@ document.addEventListener("DOMContentLoaded", () => {
   [...BurgerCity[0].children].forEach((el, i) =>
     el.addEventListener("click", () => {
       if (
-        [...BurgerCity[0].children][i].textContent !== "Россия" &&
-        [...BurgerCity[0].children][i].textContent !== "Казахстан"
+        [...BurgerCity[0].children][i].textContent !== "Russia" &&
+        [...BurgerCity[0].children][i].textContent !== "Kazakhstan"
       ) {
         chooseCityMob.innerHTML = chooseCity.innerHTML = [
           ...BurgerCity[0].children,
@@ -136,11 +136,11 @@ document.addEventListener("DOMContentLoaded", () => {
         chooseCityMob.parentNode.parentNode.style.background = "#dfdfdf";
         FooterBron.style.display = "block";
       }
-      if ([...BurgerCity[0].children][i].textContent === "Россия") {
+      if ([...BurgerCity[0].children][i].textContent === "Russia") {
         BurgerCity[1].classList.toggle("burger__menu-city-active");
         BurgerCity[0].classList.toggle("burger__menu-city-active");
       }
-      if ([...BurgerCity[0].children][i].textContent === "Казахстан") {
+      if ([...BurgerCity[0].children][i].textContent === "Kazakhstan") {
         BurgerCity[2].classList.toggle("burger__menu-city-active");
         BurgerCity[0].classList.toggle("burger__menu-city-active");
       }
@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   [...BurgerCity[1].children].forEach((el, i) =>
     el.addEventListener("click", () => {
-      if ([...BurgerCity[1].children][i].textContent !== "Россия") {
+      if ([...BurgerCity[1].children][i].textContent !== "Russia") {
         chooseCityMob.innerHTML = chooseCity.innerHTML = [
           ...BurgerCity[1].children,
         ][i].textContent;
@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   [...BurgerCity[2].children].forEach((el, i) =>
     el.addEventListener("click", () => {
-      if ([...BurgerCity[2].children][i].textContent !== "Казахстан") {
+      if ([...BurgerCity[2].children][i].textContent !== "Kazakhstan") {
         chooseCityMob.innerHTML = chooseCity.innerHTML = [
           ...BurgerCity[2].children,
         ][i].textContent;
@@ -199,7 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
       mapingList.classList.remove("burger__menu-city-active");
       [...mapingList.children].forEach((el, i) =>
         el.addEventListener("click", () => {
-          if ([...mapingList.children][i].textContent !== "Казахстан") {
+          if ([...mapingList.children][i].textContent !== "Kazakhstan") {
             chooseCityMob.innerHTML = chooseCity.innerHTML = [
               ...mapingList.children,
             ][i].textContent;
