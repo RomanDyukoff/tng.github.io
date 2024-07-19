@@ -1321,6 +1321,7 @@ footer {
 .franchise__caption {
   position: absolute;
   left: 0;
+  z-index: 9999;
   text-transform: uppercase;
   padding: 20px;
   font-family: "FuturaPTM", sans-serif;
@@ -3968,7 +3969,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .section2-container__franchise img {
   position: absolute;
   z-index: 999;
-  top: -56%;
+  top: -68%;
   width: 20%;
   transform: rotate(15deg);
 }
@@ -6567,8 +6568,8 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 56px;
-  height: 34px;
+  width: 51px;
+  height: 33px;
   cursor: pointer;
 }
 .tooltip__hidden {

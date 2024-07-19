@@ -270,6 +270,7 @@
     font-size: 40px;
     line-height: 50px;
     letter-spacing: 1px;
+    max-width: 250px;
   }
   .cookies-title > span,
   .cookies-title > h3 {
@@ -295,6 +296,7 @@
     max-width: 374px;
     top: 0;
   }
+
   .age-us-container{
       max-width: 279px !important;
   }
@@ -345,6 +347,9 @@
     line-height: 13px;
     gap:0;
     letter-spacing: 0.01em;
+  }
+    .book__container > div > .age-title {
+    max-width: 200px;
   }
   .cookies-title__EN{
     font-size: 12px;
