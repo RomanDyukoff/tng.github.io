@@ -26,7 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
     ...document.querySelector(".burger__footer-lang").children,
   ];
 
-  chooseCityMob.innerHTML = chooseCity.innerHTML = "Select City";
+  chooseCity.innerHTML = "Select City";
+  chooseCityMob.innerHTML  = "Select City";
   chooseCityMob.parentNode.parentNode.style.background = "#dfdfdf";
   searchCityMob.parentNode.style.display = "none";
 
